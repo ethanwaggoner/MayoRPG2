@@ -56,7 +56,7 @@ class CurrentUserController(Resource):
     @login_required
     @auth_ns.response(200, 'Success', user_model)
     @auth_ns.response(401, 'Unauthorized', message_model)
-    @limiter.limit("6/minute")
+    @limiter.limit("20/minute")
     def get(self):
         logger.info("Received request for current user information")
         response = AuthService.get_current_user(current_user)

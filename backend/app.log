@@ -1109,3 +1109,89 @@ AttributeError: 'AnonymousUserMixin' object has no attribute 'email'
 2025-02-04 17:37:59,769 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
 2025-02-04 17:37:59,770 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:59] "GET /api/auth/current_user HTTP/1.1" 200 -
 2025-02-04 17:37:59,775 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:59] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:40:11,573 - INFO - Received request for current user information
+2025-02-04 17:40:11,574 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:40:11,576 - INFO - 127.0.0.1 - - [04/Feb/2025 17:40:11] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:40:11,579 - INFO - 127.0.0.1 - - [04/Feb/2025 17:40:11] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:40:29,273 - INFO - Received request for current user information
+2025-02-04 17:40:29,273 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:40:29,273 - INFO - 127.0.0.1 - - [04/Feb/2025 17:40:29] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:40:29,392 - INFO - Received request for current user information
+2025-02-04 17:40:29,393 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:40:29,393 - INFO - 127.0.0.1 - - [04/Feb/2025 17:40:29] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:40:29,400 - INFO - 127.0.0.1 - - [04/Feb/2025 17:40:29] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:40:35,102 - INFO - 127.0.0.1 - - [04/Feb/2025 17:40:35] "OPTIONS /api/towns/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:40:35,128 - INFO - 127.0.0.1 - - [04/Feb/2025 17:40:35] "DELETE /api/towns/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:40:52,158 - INFO - Received request for current user information
+2025-02-04 17:40:52,158 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:40:52,159 - INFO - 127.0.0.1 - - [04/Feb/2025 17:40:52] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:40:52,260 - INFO - Received request for current user information
+2025-02-04 17:40:52,261 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:40:52,261 - INFO - 127.0.0.1 - - [04/Feb/2025 17:40:52] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:40:52,274 - INFO - 127.0.0.1 - - [04/Feb/2025 17:40:52] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:43:03,271 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:03] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:43:03,280 - INFO - Received login request for email: ethanjwaggoner@gmail.com from IP: 127.0.0.1
+2025-02-04 17:43:03,364 - INFO - User logged in successfully: email: ethanjwaggoner@gmail.com, IP: 127.0.0.1
+2025-02-04 17:43:03,366 - INFO - Login successful for email: ethanjwaggoner@gmail.com
+2025-02-04 17:43:03,367 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:03] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:43:05,513 - INFO - Received request for current user information
+2025-02-04 17:43:05,514 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:43:05,516 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:05] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:43:05,518 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:05] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:43:08,363 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:08] "GET /api/towns/a7c38d01-bca8-4d3e-9044-147a72cda54e/ HTTP/1.1" 200 -
+2025-02-04 17:43:08,508 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:08] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:43:08,534 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:08] "GET /api/heroes/a7c38d01-bca8-4d3e-9044-147a72cda54e/ HTTP/1.1" 200 -
+2025-02-04 17:43:11,008 - INFO - Received logout request for user: ethanjwaggoner@gmail.com
+2025-02-04 17:43:11,010 - INFO - User logged out successfully: email: ethanjwaggoner@gmail.com
+2025-02-04 17:43:11,010 - INFO - Logout response: 200
+2025-02-04 17:43:11,011 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:11] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-04 17:43:25,229 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:25] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:43:25,235 - INFO - Received login request for email: ethanjwaggoner@gmail.com from IP: 127.0.0.1
+2025-02-04 17:43:25,316 - INFO - User logged in successfully: email: ethanjwaggoner@gmail.com, IP: 127.0.0.1
+2025-02-04 17:43:25,317 - INFO - Login successful for email: ethanjwaggoner@gmail.com
+2025-02-04 17:43:25,318 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:25] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:43:27,427 - INFO - Received request for current user information
+2025-02-04 17:43:27,428 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:43:27,429 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:27] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:43:27,435 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:27] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:43:30,851 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:30] "OPTIONS /api/towns/a7c38d01-bca8-4d3e-9044-147a72cda54e/ HTTP/1.1" 200 -
+2025-02-04 17:43:30,894 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:30] "DELETE /api/towns/a7c38d01-bca8-4d3e-9044-147a72cda54e/ HTTP/1.1" 200 -
+2025-02-04 17:43:32,349 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:32] "GET /api/towns/2eedeb16-e531-483f-a39d-3dcea410cc19/ HTTP/1.1" 200 -
+2025-02-04 17:43:32,473 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:32] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:43:32,506 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:32] "GET /api/heroes/2eedeb16-e531-483f-a39d-3dcea410cc19/ HTTP/1.1" 200 -
+2025-02-04 17:43:35,950 - INFO - Received request for current user information
+2025-02-04 17:43:35,951 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:43:35,953 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:35] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:43:35,955 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:35] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:43:36,888 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:36] "GET /api/towns/9ee68b3b-4645-4eb4-91e2-3c0b68e263f8/ HTTP/1.1" 200 -
+2025-02-04 17:43:36,953 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:36] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:43:36,986 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:36] "GET /api/heroes/9ee68b3b-4645-4eb4-91e2-3c0b68e263f8/ HTTP/1.1" 200 -
+2025-02-04 17:43:38,046 - INFO - Received request for current user information
+2025-02-04 17:43:38,052 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:38] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:43:38,057 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:43:38,059 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:38] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:43:41,968 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:41] "OPTIONS /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:43:41,987 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:41] "[35m[1mPOST /api/towns/ HTTP/1.1[0m" 201 -
+2025-02-04 17:43:42,068 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:42] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-04 17:43:45,297 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:45] "OPTIONS /api/heroes/5ad16932-0a36-4291-9ede-c7e50c6ecb2b/ HTTP/1.1" 200 -
+2025-02-04 17:43:45,304 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:45] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:43:45,347 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:45] "[35m[1mPOST /api/heroes/5ad16932-0a36-4291-9ede-c7e50c6ecb2b/ HTTP/1.1[0m" 201 -
+2025-02-04 17:43:45,358 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:45] "GET /api/heroes/5ad16932-0a36-4291-9ede-c7e50c6ecb2b/ HTTP/1.1" 200 -
+2025-02-04 17:43:49,472 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:49] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-04 17:43:53,643 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:53] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-04 17:43:54,278 - INFO - Received request for current user information
+2025-02-04 17:43:54,280 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:43:54,281 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:54] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:43:54,282 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:54] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:43:56,976 - INFO - Received request for current user information
+2025-02-04 17:43:56,976 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:43:56,977 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:56] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:43:57,062 - INFO - ratelimit 6 per 1 minute (127.0.0.1) exceeded at endpoint: auth_current_user_controller
+2025-02-04 17:43:57,063 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:57] "[31m[1mGET /api/auth/current_user HTTP/1.1[0m" 429 -
+2025-02-04 17:43:57,076 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:57] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:43:59,343 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:59] "GET /api/towns/2eedeb16-e531-483f-a39d-3dcea410cc19/ HTTP/1.1" 200 -
+2025-02-04 17:43:59,352 - INFO - ratelimit 6 per 1 minute (127.0.0.1) exceeded at endpoint: auth_current_user_controller
+2025-02-04 17:43:59,353 - INFO - 127.0.0.1 - - [04/Feb/2025 17:43:59] "[31m[1mGET /api/auth/current_user HTTP/1.1[0m" 429 -
+2025-02-04 17:44:27,928 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-04 17:44:27,928 - INFO - [33mPress CTRL+C to quit[0m

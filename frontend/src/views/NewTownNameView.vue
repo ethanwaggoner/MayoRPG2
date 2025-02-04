@@ -4,7 +4,7 @@ import router from '@/router.js'
 import { useTownStore } from '@/stores/TownStore.js'
 import { useUserStore } from '@/stores/UserStore.js'
 import StartHeroSpawner from '@/components/StartHeroSpawner.vue'
-import { useHeroStore } from "@/stores/HeroStore.js";
+import { useHeroStore } from "@/stores/HeroStore.js"
 
 const townStore = useTownStore()
 const userStore = useUserStore()
@@ -43,6 +43,16 @@ async function loadTown(town) {
     }
   } catch (error) {
     console.error('Error loading town:', error)
+  }
+}
+
+async function deleteTown(townUuid) {
+  if (confirm('Are you sure you want to delete this town?')) {
+    try {
+      await townStore.deleteTown(townUuid)
+    } catch (error) {
+      console.error('Error deleting town:', error)
+    }
   }
 }
 
@@ -90,14 +100,19 @@ onMounted(() => {
           v-for="(slot, index) in townSlots"
           :key="index"
           class="save-slot"
-          @click="handleSlotClick(index)"
+          @click="slot && handleSlotClick(index)"
         >
-          <div v-if="slot" class="town-info">
-            <h3 class="town-name">{{ slot.name }}</h3>
-            <p class="town-date">Created: {{ formatDate(slot.created_at) }}</p>
-            <p class="town-info-detail">Level {{ slot.level || '1' }}</p>
+          <div v-if="slot" class="slot-content">
+            <div class="town-info">
+              <h3 class="town-name">{{ slot.name }}</h3>
+              <p class="town-date">Created: {{ formatDate(slot.created_at) }}</p>
+              <p class="town-info-detail">Level {{ slot.level || '1' }}</p>
+            </div>
+            <button class="delete-button" @click.stop="deleteTown(slot.uuid)">
+              Delete
+            </button>
           </div>
-          <div v-else class="empty-slot">
+          <div v-else class="empty-slot" @click="handleSlotClick(index)">
             <p>Empty Save Slot</p>
             <p class="create-prompt">Click to create a new town</p>
           </div>
@@ -175,7 +190,18 @@ onMounted(() => {
   box-shadow: 0 0 15px rgba(194, 163, 104, 0.6);
 }
 
-.town-info h3 {
+.slot-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.town-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.town-name {
   font-family: 'Press Start 2P', cursive;
   margin: 0;
   font-size: 1.2em;
@@ -190,6 +216,22 @@ onMounted(() => {
   margin: 5px 0;
   color: #dac9a6;
   text-shadow: 1px 1px 2px #000;
+}
+
+.delete-button {
+  background: #aa3333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-family: 'Press Start 2P', cursive;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-left: 10px;
+}
+
+.delete-button:hover {
+  background: #ff5555;
 }
 
 .empty-slot {

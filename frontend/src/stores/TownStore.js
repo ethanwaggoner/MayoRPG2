@@ -49,13 +49,22 @@ export const useTownStore = defineStore('townStore', {
           }
         },
 
-        async deleteTown(townUuid) {
-            try {
-                await apiService.delete(`/api/towns/${townUuid}/`);
-                this.towns = this.towns.filter(town => town.uuid !== townUuid);
-            } catch (error) {
-                console.error('Error deleting town:', error);
+       async deleteTown(townUuid) {
+          try {
+            await apiService.delete(`/api/towns/${townUuid}/`);
+            this.towns = this.towns.filter(town => town.uuid !== townUuid);
+
+            if (this.currentTown && this.currentTown.uuid === townUuid) {
+              if (this.towns.length > 0) {
+                this.currentTown = this.towns[0];
+              } else {
+                this.currentTown = null;
+              }
+              localStorage.setItem('currentTown', JSON.stringify(this.currentTown));
             }
+          } catch (error) {
+            console.error('Error deleting town:', error);
+          }
         },
         async selectTown(townUuid) {
             try {
