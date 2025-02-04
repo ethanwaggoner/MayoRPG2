@@ -1,4 +1,5 @@
 <script setup>
+import slotBackground from '@/assets/items/tile1008.png'
 </script>
 
 <template>
@@ -12,7 +13,6 @@
 
 <style scoped>
 .inventory-container {
-  margin-top: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,7 +27,7 @@
 
 .inventory-title {
   font-size: 2rem;
-  color: #f8facc;
+  color: #dac9a6;
   margin-bottom: 1rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-family: 'Press Start 2P', cursive;
@@ -42,20 +42,18 @@
 }
 
 .grid-item {
-  background: linear-gradient(145deg, #6e7075, #8a8c90);
-  border: 2px solid #444;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 50px;
   height: 50px;
-  transition: transform 0.3s, box-shadow 0.3s;
+  background: url("@/assets/items/tile1008.png") no-repeat center center;
+  background-size: cover;
+  border: 2px solid #444;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .grid-item:hover {
   transform: scale(1.1);
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.5);
-  background: linear-gradient(145deg, #8a8c90, #6e7075);
 }
 </style>

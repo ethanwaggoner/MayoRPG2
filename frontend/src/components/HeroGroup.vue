@@ -1,5 +1,5 @@
 <script setup>
-import { useRouter } from 'vue-router';
+import {useRouter} from 'vue-router';
 
 const props = defineProps({
   heroes: {
@@ -15,7 +15,7 @@ const props = defineProps({
 const router = useRouter();
 
 function routeToNewHero() {
-  router.push({ name: 'ChooseHero' });
+  router.push({name: 'ChooseHero'});
 }
 </script>
 
@@ -30,14 +30,14 @@ function routeToNewHero() {
             <p class="hero-level">
               Level: {{ heroes[index - 1].level }} {{ heroes[index - 1].heroClass }}
             </p>
-            <img :src="heroes[index - 1].image" alt="Hero" class="hero-image" />
+            <img :src="heroes[index - 1].image" alt="Hero" class="hero-image"/>
           </div>
         </template>
         <i
-          v-else
-          class="fas fa-lock lock-icon"
-          @click="routeToNewHero"
-          title="Create New Hero"
+            v-else
+            class="fas fa-lock lock-icon"
+            @click="routeToNewHero"
+            title="Create New Hero"
         ></i>
       </div>
     </div>
@@ -49,14 +49,14 @@ function routeToNewHero() {
             <p class="hero-level">
               Level: {{ heroes[index + 2].level }} {{ heroes[index + 2].heroClass }}
             </p>
-            <img :src="heroes[index + 2].image" alt="Hero" class="hero-image" />
+            <img :src="heroes[index + 2].image" alt="Hero" class="hero-image"/>
           </div>
         </template>
         <i
-          v-else
-          class="fas fa-lock lock-icon"
-          @click="routeToNewHero"
-          title="Create New Hero"
+            v-else
+            class="fas fa-lock lock-icon"
+            @click="routeToNewHero"
+            title="Create New Hero"
         ></i>
       </div>
     </div>
@@ -71,13 +71,12 @@ function routeToNewHero() {
   width: 100%;
   max-width: 900px;
   font-family: 'Press Start 2P', cursive;
-  color: #f8facc;
-  scale: .9;
+  color: #dac9a6;
 }
 
 h2 {
   font-size: 1.5rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
@@ -93,11 +92,11 @@ h2 {
   width: 25%;
   padding-bottom: 40%;
   margin: 0.5rem;
-  border: 2px solid #444;
+  border: 2px solid #c2a368;
   border-radius: 12px;
-  background: linear-gradient(135deg, #1a1a1a, #000);
-  box-shadow: 0 4px 10px rgba(0, 255, 255, 0.3);
-  transition: transform 0.3s ease;
+  background: rgba(57, 38, 25, 0.85);
+  box-shadow: 0 4px 10px rgba(194, 163, 104, 0.3);
+  transition: transform 0.3s ease, background 0.3s ease, border 0.3s ease;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -105,7 +104,9 @@ h2 {
 }
 
 .hero-square:hover {
+  background: rgba(79, 56, 39, 0.85);
   transform: scale(1.05) translateY(-5px);
+  border-color: #c2a368;
 }
 
 .hero-card {
@@ -119,7 +120,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(36, 21, 11, 0.8);
   border-radius: 12px;
 }
 
@@ -152,7 +153,7 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 3.5rem;
-  color: #f8facc;
+  color: #dac9a6;
   opacity: 0.8;
   transition: transform 0.3s, opacity 0.3s;
   cursor: pointer;

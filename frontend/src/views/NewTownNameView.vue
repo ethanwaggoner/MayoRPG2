@@ -54,7 +54,7 @@ async function createTown() {
     return
   }
   try {
-    await townStore.createTown({name: newTownName.value})
+    await townStore.createTown({ name: newTownName.value })
     newTownName.value = ''
     showCreateModal.value = false
     await router.push('/choose-hero')
@@ -70,7 +70,7 @@ function cancelCreation() {
 
 function formatDate(dateString) {
   if (!dateString) return 'Unknown'
-  const options = {year: 'numeric', month: 'short', day: 'numeric'}
+  const options = { year: 'numeric', month: 'short', day: 'numeric' }
   return new Date(dateString).toLocaleDateString(undefined, options)
 }
 
@@ -88,7 +88,12 @@ onMounted(() => {
     <div class="save-slots">
       <h2 class="sidebar-title">Your Town Saves {{ username }}</h2>
       <div class="slots-grid">
-        <div v-for="(slot, index) in townSlots" :key="index" class="save-slot" @click="handleSlotClick(index)">
+        <div
+          v-for="(slot, index) in townSlots"
+          :key="index"
+          class="save-slot"
+          @click="handleSlotClick(index)"
+        >
           <div v-if="slot" class="town-info">
             <h3 class="town-name">{{ slot.name }}</h3>
             <p class="town-date">Created: {{ formatDate(slot.created_at) }}</p>
@@ -101,11 +106,16 @@ onMounted(() => {
         </div>
       </div>
     </div>
-    <StartHeroSpawner/>
+    <StartHeroSpawner />
     <div v-if="showCreateModal" class="modal-overlay">
       <div class="modal-content">
         <h2>Create a New Town</h2>
-        <input v-model="newTownName" type="text" placeholder="Enter town name" class="modal-input"/>
+        <input
+          v-model="newTownName"
+          type="text"
+          placeholder="Enter town name"
+          class="modal-input"
+        />
         <div class="modal-buttons">
           <button @click="createTown" class="modal-submit">Create</button>
           <button @click="cancelCreation" class="modal-cancel">Cancel</button>
@@ -122,17 +132,17 @@ onMounted(() => {
   align-items: flex-start;
   width: 100%;
   height: 100vh;
-  position: relative;
+  background: none;
 }
 
 .save-slots {
   width: 30%;
   max-height: 100vh;
   padding: 20px;
-  background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
-  border-right: 2px solid #00ffff;
+  background: rgba(36, 21, 11, 0.8);
+  border-right: 2px solid #c2a368;
   overflow-y: auto;
-  box-shadow: 2px 0 15px rgba(0, 255, 255, 0.3);
+  box-shadow: 2px 0 15px rgba(194, 163, 104, 0.3);
 }
 
 .sidebar-title {
@@ -140,9 +150,10 @@ onMounted(() => {
   text-align: center;
   margin-bottom: 20px;
   font-size: 1.5em;
-  border-bottom: 2px solid #00ffff;
+  border-bottom: 2px solid #c2a368;
   padding-bottom: 10px;
-  color: #f8facc;
+  color: #dac9a6;
+  text-shadow: 1px 1px 2px #000;
 }
 
 .slots-grid {
@@ -152,24 +163,26 @@ onMounted(() => {
 }
 
 .save-slot {
-  background: linear-gradient(45deg, #1a1a1a, #333);
-  border: 2px solid #00ffff;
+  background: rgba(57, 38, 25, 0.85);
+  border: 2px solid #c2a368;
   border-radius: 10px;
   padding: 15px;
   cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 .save-slot:hover {
+  background: rgba(79, 56, 39, 0.85);
   transform: scale(1.03);
-  box-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
+  box-shadow: 0 0 15px rgba(194, 163, 104, 0.6);
 }
 
 .town-info h3 {
   font-family: 'Press Start 2P', cursive;
   margin: 0;
   font-size: 1.2em;
-  color: #f8facc;
+  color: #dac9a6;
+  text-shadow: 1px 1px 2px #000;
 }
 
 .town-date,
@@ -177,7 +190,8 @@ onMounted(() => {
   font-family: 'Press Start 2P', cursive;
   font-size: 0.8em;
   margin: 5px 0;
-  color: #f8facc;
+  color: #dac9a6;
+  text-shadow: 1px 1px 2px #000;
 }
 
 .empty-slot {
@@ -188,16 +202,18 @@ onMounted(() => {
   height: 100px;
   font-family: 'Press Start 2P', cursive;
   font-size: 1em;
-  color: #f8facc;
+  color: #dac9a6;
   text-align: center;
-  border: 2px dashed #00ffff;
+  border: 2px dashed #c2a368;
   border-radius: 10px;
+  text-shadow: 1px 1px 2px #000;
 }
 
 .create-prompt {
   font-size: 0.8em;
   margin-top: 5px;
-  color: #00ffff;
+  color: #c2a368;
+  text-shadow: 1px 1px 2px #000;
 }
 
 .modal-overlay {
@@ -214,15 +230,16 @@ onMounted(() => {
 }
 
 .modal-content {
-  background: linear-gradient(45deg, #1a1a1a, #333);
-  border: 2px solid #00ffff;
+  background: rgba(36, 21, 11, 0.8);
+  border: 2px solid #c2a368;
   border-radius: 10px;
   padding: 30px;
   width: 480px;
   text-align: center;
-  box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
-  color: #f8facc;
+  box-shadow: 0 0 20px rgba(194, 163, 104, 0.8);
+  color: #dac9a6;
   font-family: 'Press Start 2P', cursive;
+  text-shadow: 1px 1px 2px #000;
 }
 
 .modal-input {
@@ -233,7 +250,7 @@ onMounted(() => {
   border-radius: 10px;
   font-family: 'Press Start 2P', cursive;
   font-size: 1em;
-  background: #f8facc;
+  background: #dac9a6;
   color: #333;
 }
 
@@ -245,8 +262,8 @@ onMounted(() => {
 .modal-submit,
 .modal-cancel {
   background: #333;
-  color: #f8facc;
-  border: 2px solid #00ffff;
+  color: #dac9a6;
+  border: 2px solid #c2a368;
   border-radius: 10px;
   padding: 10px;
   cursor: pointer;
@@ -258,7 +275,7 @@ onMounted(() => {
 
 .modal-submit:hover,
 .modal-cancel:hover {
-  background: #1a1a1a;
+  background: rgba(36, 21, 11, 0.9);
   transform: scale(1.05);
 }
 </style>

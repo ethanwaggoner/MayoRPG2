@@ -6,10 +6,10 @@ import TopBarStats from "@/components/TopBarStats.vue";
 import BattleButton from "@/components/BattleButton.vue";
 import PlayerLevelBar from "@/components/PlayerLevelBar.vue";
 
-import {useHeroStore} from "@/stores/HeroStore.js";
-import {computed, onMounted} from "vue";
-import {useRouter} from "vue-router";
-import {useTownStore} from "@/stores/TownStore.js";
+import { useHeroStore } from "@/stores/HeroStore.js";
+import { useTownStore } from "@/stores/TownStore.js";
+import { computed, onMounted } from "vue";
+import { useRouter } from "vue-router";
 import LandingItemScroller from "@/components/LandingItemScroller.vue";
 
 const heroStore = useHeroStore();
@@ -22,7 +22,6 @@ const heroes2 = computed(() => heroStore.HeroGroup2);
 onMounted(() => {
   heroStore.loadHeroData(heroStore.currentTownUuid);
 });
-
 </script>
 
 <template>
@@ -64,20 +63,20 @@ onMounted(() => {
   </div>
 </template>
 
-
-
 <style scoped>
 .container {
-  background-color: rgba(0, 0, 0, 0.7);
-  border: 2px solid rgba(255, 255, 255, 0.2);
-  border-radius: 10px;
-  padding: 10px;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   position: relative;
   z-index: 1;
+  background: rgba(36, 21, 11, 0.8);
+  border: 2px solid #c2a368;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(194, 163, 104, 0.3);
+  padding: 10px;
+  font-family: 'Press Start 2P', cursive;
+  color: #dac9a6;
 }
-
 </style>

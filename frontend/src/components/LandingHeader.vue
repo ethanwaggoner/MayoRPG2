@@ -13,10 +13,10 @@
       </router-link>
       <nav>
         <ul class="nav-links">
+          <li><a href="/#hero">Play Now</a></li>
+          <li><a href="/#features">Features</a></li>
+          <li><a href="/#gallery">Gallery</a></li>
           <li><a href="/news">News</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#hero">Play Now</a></li>
         </ul>
       </nav>
       <div class="mobile-menu-toggle" @click="toggleMenu">

@@ -9,12 +9,12 @@ import farms from "@/assets/items/tile894.png";
 import exit from "@/assets/items/tile924.png";
 
 const menuItems = [
-  { label: 'Tavern', icon: tavern, route: '/tavern' },
-  { label: 'Mines', icon: mine, route: '/mines' },
-  { label: 'Farms', icon: farms, route: '/farms' },
-  { label: 'Blacksmith', icon: blacksmith, route: '/blacksmith' },
-  { label: 'Alchemist', icon: alchemist, route: '/alchemist' },
-  { label: 'Exit', icon: exit, route: '/' }
+  {label: 'Tavern', icon: tavern, route: '/tavern'},
+  {label: 'Mines', icon: mine, route: '/mines'},
+  {label: 'Farms', icon: farms, route: '/farms'},
+  {label: 'Blacksmith', icon: blacksmith, route: '/blacksmith'},
+  {label: 'Alchemist', icon: alchemist, route: '/alchemist'},
+  {label: 'Exit', icon: exit, route: '/'}
 ];
 
 const router = useRouter();
@@ -28,11 +28,11 @@ function navigate(route) {
   <div class="sidebar">
     <ul>
       <li
-        v-for="item in menuItems"
-        :key="item.label"
-        @click="navigate(item.route)"
+          v-for="item in menuItems"
+          :key="item.label"
+          @click="navigate(item.route)"
       >
-        <img :src="item.icon" :alt="item.label" class="icon" />
+        <img :src="item.icon" :alt="item.label" class="icon"/>
         <span>{{ item.label }}</span>
       </li>
     </ul>
@@ -44,10 +44,10 @@ function navigate(route) {
   width: 100%;
   height: 100%;
   padding: 1rem;
-  background: linear-gradient(135deg, #1a1a1a, #000);
-  border: 2px solid #444;
+  background: rgba(36, 21, 11, 0.8);
+  border: 2px solid #c2a368;
   border-radius: 15px;
-  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+  box-shadow: 0 0 20px rgba(194, 163, 104, 0.3);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,7 +58,6 @@ function navigate(route) {
   padding: 0;
   margin: 0;
   width: 100%;
-  /* Use flex layout to evenly distribute the menu items */
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -69,16 +68,18 @@ function navigate(route) {
   align-items: center;
   justify-content: flex-start;
   padding: 15px 20px;
+  margin: 4px 0;
   border-radius: 10px;
   cursor: pointer;
-  transition: background 0.3s, transform 0.3s;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(57, 38, 25, 0.85);
+  border: 2px solid transparent;
+  transition: background 0.3s, transform 0.3s, border 0.3s;
   flex: 1;
-  margin: 4px 0;
 }
 
 .sidebar li:hover {
-  background: rgba(0, 255, 255, 0.1);
+  background: rgba(79, 56, 39, 0.85);
+  border: 2px solid #c2a368;
   transform: translateX(5px);
 }
 
@@ -86,12 +87,12 @@ function navigate(route) {
   width: 40px;
   height: 40px;
   margin-right: 20px;
-  filter: drop-shadow(0 0 5px rgba(0, 255, 255, 0.7));
+  filter: drop-shadow(0 0 5px rgba(194, 163, 104, 0.7));
 }
 
 .sidebar span {
   font-size: 1.8rem;
-  color: #f8facc;
+  color: #dac9a6;
   font-family: 'Press Start 2P', cursive;
   text-shadow: 1px 1px 2px #000;
 }

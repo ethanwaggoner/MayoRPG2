@@ -12,8 +12,7 @@
 <style scoped>
 .battle-container {
   text-align: center;
-  margin-top: 50px;
-  padding: 20px;
+  padding: 10px;
   margin-bottom: 50px;
 }
 
@@ -21,8 +20,7 @@
   cursor: pointer;
 }
 
-.battle-image,
-.battle-text {
+.battle-image {
   animation: breathe 2s ease-in-out infinite;
 }
 
@@ -40,12 +38,12 @@
   height: auto;
   display: block;
   margin: 0 auto;
-  scale: 2;
+  scale: 2.5;
 }
 
 .battle-text {
-  font-size: 2em;
-  color: white;
-  margin-bottom: 40px;
+  font-size: 1em;
+  color: #dac9a6;
+  margin-bottom: 50px;
 }
 </style>
