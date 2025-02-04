@@ -1,6 +1,10 @@
 import { defineStore } from 'pinia';
 import apiService from "@/api/apiService.js";
 import { Hero } from "@/game/hero.js";
+import { useTownStore} from "@/stores/TownStore.js";
+
+const townStore = useTownStore();
+
 
 export const useHeroStore = defineStore('heroStore', {
   state: () => ({
@@ -8,7 +12,6 @@ export const useHeroStore = defineStore('heroStore', {
     selectedHero: null,
     HeroGroup1: [],
     HeroGroup2: [],
-    currentTownUuid: null
   }),
   getters: {
     heroById: (state) => (id) => state.heroes.find(hero => hero.id === id)
@@ -56,6 +59,8 @@ export const useHeroStore = defineStore('heroStore', {
       }
     },
     async confirmHeroSelection(groupNumber) {
+      const townUuid = townStore.currentTown.uuid
+
       if (!this.selectedHero) {
         console.error("No hero selected to confirm.");
         return;
@@ -63,7 +68,7 @@ export const useHeroStore = defineStore('heroStore', {
       this.selectedHero.heroGroup = groupNumber;
       try {
         console.log(this.selectedHero)
-        await this.createHero(this.currentTownUuid, this.selectedHero);
+        await this.createHero(townUuid, this.selectedHero);
         if (groupNumber === 1) {
           this.HeroGroup1.push(this.selectedHero);
         } else if (groupNumber === 2) {
@@ -80,8 +85,5 @@ export const useHeroStore = defineStore('heroStore', {
       this.HeroGroup1 = [];
       this.HeroGroup2 = [];
     },
-    async setCurrentTownUuid(townUuid) {
-      this.currentTownUuid = townUuid;
-    }
   }
 });

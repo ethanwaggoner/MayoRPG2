@@ -81,9 +81,10 @@ class AuthService:
     @staticmethod
     def logout(current_user):
         if current_user.is_authenticated:
+            user_email = current_user.email
             logout_user()
             session.clear()
-            logger.info("User logged out successfully: email: %s", current_user.email)
+            logger.info("User logged out successfully: email: %s", user_email)
             return {'message': 'Logged out successfully.'}, 200
         else:
             logger.warning("Logout requested but no active session found.")

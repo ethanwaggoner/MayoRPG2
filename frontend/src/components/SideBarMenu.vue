@@ -1,5 +1,6 @@
 <script setup>
 import { useRouter } from 'vue-router';
+import { useUserStore } from "@/stores/UserStore.js";
 
 import blacksmith from "@/assets/items/tile975.png";
 import alchemist from "@/assets/items/tile786.png";
@@ -7,6 +8,9 @@ import tavern from "@/assets/items/tile956.png";
 import mine from "@/assets/items/tile661.png";
 import farms from "@/assets/items/tile894.png";
 import exit from "@/assets/items/tile924.png";
+
+const userStore = useUserStore();
+
 
 const menuItems = [
   {label: 'Tavern', icon: tavern, route: '/tavern'},
@@ -20,6 +24,7 @@ const menuItems = [
 const router = useRouter();
 
 function navigate(route) {
+  userStore.logout();
   router.push(route);
 }
 </script>

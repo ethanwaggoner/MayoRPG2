@@ -434,3 +434,678 @@
 2025-02-04 16:22:54,841 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
 2025-02-04 16:22:54,842 - INFO - 127.0.0.1 - - [04/Feb/2025 16:22:54] "GET /api/auth/current_user HTTP/1.1" 200 -
 2025-02-04 16:22:54,981 - INFO - 127.0.0.1 - - [04/Feb/2025 16:22:54] "GET /api/heroes/null/ HTTP/1.1" 200 -
+2025-02-04 16:25:23,347 - INFO - 127.0.0.1 - - [04/Feb/2025 16:25:23] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:25:23,362 - INFO - Received login request for email: thetoasthobo@gmail.com from IP: 127.0.0.1
+2025-02-04 16:25:23,441 - INFO - User logged in successfully: email: thetoasthobo@gmail.com, IP: 127.0.0.1
+2025-02-04 16:25:23,442 - INFO - Login successful for email: thetoasthobo@gmail.com
+2025-02-04 16:25:23,443 - INFO - 127.0.0.1 - - [04/Feb/2025 16:25:23] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:25:25,542 - INFO - Received request for current user information
+2025-02-04 16:25:25,543 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-04 16:25:25,544 - INFO - 127.0.0.1 - - [04/Feb/2025 16:25:25] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 16:25:25,549 - INFO - 127.0.0.1 - - [04/Feb/2025 16:25:25] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 16:25:26,914 - INFO - Received request for current user information
+2025-02-04 16:25:26,915 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-04 16:25:26,915 - INFO - 127.0.0.1 - - [04/Feb/2025 16:25:26] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 16:25:27,010 - INFO - Received request for current user information
+2025-02-04 16:25:27,011 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-04 16:25:27,011 - INFO - 127.0.0.1 - - [04/Feb/2025 16:25:27] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 16:25:27,023 - INFO - 127.0.0.1 - - [04/Feb/2025 16:25:27] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 16:25:31,625 - INFO - 127.0.0.1 - - [04/Feb/2025 16:25:31] "OPTIONS /api/towns/ HTTP/1.1" 200 -
+2025-02-04 16:25:31,646 - INFO - 127.0.0.1 - - [04/Feb/2025 16:25:31] "[35m[1mPOST /api/towns/ HTTP/1.1[0m" 201 -
+2025-02-04 16:25:31,741 - INFO - 127.0.0.1 - - [04/Feb/2025 16:25:31] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-04 16:25:37,775 - INFO - 127.0.0.1 - - [04/Feb/2025 16:25:37] "OPTIONS /api/heroes/null/ HTTP/1.1" 200 -
+2025-02-04 16:25:37,784 - INFO - 127.0.0.1 - - [04/Feb/2025 16:25:37] "[33mPOST /api/heroes/null/ HTTP/1.1[0m" 404 -
+2025-02-04 16:25:37,890 - INFO - 127.0.0.1 - - [04/Feb/2025 16:25:37] "GET /api/heroes/null/ HTTP/1.1" 200 -
+2025-02-04 16:26:16,599 - INFO - 127.0.0.1 - - [04/Feb/2025 16:26:16] "OPTIONS /api/auth/signup HTTP/1.1" 200 -
+2025-02-04 16:26:16,606 - INFO - Received signup request for email: test@test.com, username: test
+2025-02-04 16:26:16,692 - INFO - User created successfully: email: test@test.com, username: test, id: 2
+2025-02-04 16:26:16,694 - INFO - Signup response for email test@test.com: 201
+2025-02-04 16:26:16,695 - INFO - 127.0.0.1 - - [04/Feb/2025 16:26:16] "[35m[1mPOST /api/auth/signup HTTP/1.1[0m" 201 -
+2025-02-04 16:26:27,663 - INFO - 127.0.0.1 - - [04/Feb/2025 16:26:27] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:26:27,680 - INFO - Received login request for email: test@test.com from IP: 127.0.0.1
+2025-02-04 16:26:27,761 - INFO - User logged in successfully: email: test@test.com, IP: 127.0.0.1
+2025-02-04 16:26:27,762 - INFO - Login successful for email: test@test.com
+2025-02-04 16:26:27,762 - INFO - 127.0.0.1 - - [04/Feb/2025 16:26:27] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:26:27,858 - INFO - 127.0.0.1 - - [04/Feb/2025 16:26:27] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 16:26:27,861 - INFO - Received request for current user information
+2025-02-04 16:26:27,863 - INFO - Retrieved current user information for user: test@test.com
+2025-02-04 16:26:27,864 - INFO - 127.0.0.1 - - [04/Feb/2025 16:26:27] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 16:26:33,806 - INFO - 127.0.0.1 - - [04/Feb/2025 16:26:33] "OPTIONS /api/towns/ HTTP/1.1" 200 -
+2025-02-04 16:26:33,824 - INFO - 127.0.0.1 - - [04/Feb/2025 16:26:33] "[35m[1mPOST /api/towns/ HTTP/1.1[0m" 201 -
+2025-02-04 16:26:33,886 - INFO - 127.0.0.1 - - [04/Feb/2025 16:26:33] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-04 16:26:37,197 - INFO - 127.0.0.1 - - [04/Feb/2025 16:26:37] "OPTIONS /api/heroes/null/ HTTP/1.1" 200 -
+2025-02-04 16:26:37,216 - INFO - 127.0.0.1 - - [04/Feb/2025 16:26:37] "[33mGET /api/heroes/null/ HTTP/1.1[0m" 404 -
+2025-02-04 16:26:37,223 - INFO - 127.0.0.1 - - [04/Feb/2025 16:26:37] "[33mPOST /api/heroes/null/ HTTP/1.1[0m" 404 -
+2025-02-04 16:28:28,715 - INFO - Received request for current user information
+2025-02-04 16:28:28,715 - INFO - Retrieved current user information for user: test@test.com
+2025-02-04 16:28:28,716 - INFO - 127.0.0.1 - - [04/Feb/2025 16:28:28] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 16:28:28,881 - INFO - 127.0.0.1 - - [04/Feb/2025 16:28:28] "[33mGET /api/heroes/null/ HTTP/1.1[0m" 404 -
+2025-02-04 16:28:46,058 - INFO - 127.0.0.1 - - [04/Feb/2025 16:28:46] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:28:46,063 - INFO - Received login request for email: test@test.com from IP: 127.0.0.1
+2025-02-04 16:28:46,132 - WARNING - Invalid login attempt for email: test@test.com from IP: 127.0.0.1
+2025-02-04 16:28:46,132 - WARNING - Login failed for email: test@test.com with status code: 401
+2025-02-04 16:28:46,133 - INFO - 127.0.0.1 - - [04/Feb/2025 16:28:46] "[31m[1mPOST /api/auth/login HTTP/1.1[0m" 401 -
+2025-02-04 16:29:00,129 - INFO - 127.0.0.1 - - [04/Feb/2025 16:29:00] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:29:00,133 - INFO - Received login request for email: test@test.com from IP: 127.0.0.1
+2025-02-04 16:29:00,217 - INFO - User logged in successfully: email: test@test.com, IP: 127.0.0.1
+2025-02-04 16:29:00,218 - INFO - Login successful for email: test@test.com
+2025-02-04 16:29:00,219 - INFO - 127.0.0.1 - - [04/Feb/2025 16:29:00] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:29:02,324 - INFO - 127.0.0.1 - - [04/Feb/2025 16:29:02] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 16:29:02,328 - INFO - Received request for current user information
+2025-02-04 16:29:02,328 - INFO - Retrieved current user information for user: test@test.com
+2025-02-04 16:29:02,329 - INFO - 127.0.0.1 - - [04/Feb/2025 16:29:02] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 16:29:06,566 - INFO - 127.0.0.1 - - [04/Feb/2025 16:29:06] "GET /api/towns/e65d672a-6316-4f6c-b4f7-06a33a2f4fab/ HTTP/1.1" 200 -
+2025-02-04 16:29:06,670 - INFO - 127.0.0.1 - - [04/Feb/2025 16:29:06] "GET /api/heroes/e65d672a-6316-4f6c-b4f7-06a33a2f4fab/ HTTP/1.1" 200 -
+2025-02-04 16:29:07,658 - INFO - 127.0.0.1 - - [04/Feb/2025 16:29:07] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-04 16:29:10,477 - INFO - 127.0.0.1 - - [04/Feb/2025 16:29:10] "OPTIONS /api/heroes/e65d672a-6316-4f6c-b4f7-06a33a2f4fab/ HTTP/1.1" 200 -
+2025-02-04 16:29:10,488 - INFO - 127.0.0.1 - - [04/Feb/2025 16:29:10] "GET /api/heroes/e65d672a-6316-4f6c-b4f7-06a33a2f4fab/ HTTP/1.1" 200 -
+2025-02-04 16:29:10,509 - INFO - 127.0.0.1 - - [04/Feb/2025 16:29:10] "[35m[1mPOST /api/heroes/e65d672a-6316-4f6c-b4f7-06a33a2f4fab/ HTTP/1.1[0m" 201 -
+2025-02-04 16:29:34,827 - INFO - 127.0.0.1 - - [04/Feb/2025 16:29:34] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:29:34,832 - INFO - Received login request for email: test@test.com from IP: 127.0.0.1
+2025-02-04 16:29:34,913 - INFO - User logged in successfully: email: test@test.com, IP: 127.0.0.1
+2025-02-04 16:29:34,914 - INFO - Login successful for email: test@test.com
+2025-02-04 16:29:34,915 - INFO - 127.0.0.1 - - [04/Feb/2025 16:29:34] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:29:37,004 - INFO - Received request for current user information
+2025-02-04 16:29:37,004 - INFO - Retrieved current user information for user: test@test.com
+2025-02-04 16:29:37,006 - INFO - 127.0.0.1 - - [04/Feb/2025 16:29:37] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 16:29:37,008 - INFO - 127.0.0.1 - - [04/Feb/2025 16:29:37] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 16:29:38,958 - INFO - Received request for current user information
+2025-02-04 16:29:38,960 - INFO - Retrieved current user information for user: test@test.com
+2025-02-04 16:29:38,960 - INFO - 127.0.0.1 - - [04/Feb/2025 16:29:38] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 16:29:39,050 - INFO - Received request for current user information
+2025-02-04 16:29:39,051 - INFO - Retrieved current user information for user: test@test.com
+2025-02-04 16:29:39,051 - INFO - 127.0.0.1 - - [04/Feb/2025 16:29:39] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 16:29:39,063 - INFO - 127.0.0.1 - - [04/Feb/2025 16:29:39] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 16:29:43,813 - INFO - 127.0.0.1 - - [04/Feb/2025 16:29:43] "OPTIONS /api/towns/ HTTP/1.1" 200 -
+2025-02-04 16:29:43,837 - INFO - 127.0.0.1 - - [04/Feb/2025 16:29:43] "[35m[1mPOST /api/towns/ HTTP/1.1[0m" 201 -
+2025-02-04 16:29:43,955 - INFO - 127.0.0.1 - - [04/Feb/2025 16:29:43] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-04 16:29:46,580 - INFO - 127.0.0.1 - - [04/Feb/2025 16:29:46] "OPTIONS /api/heroes/null/ HTTP/1.1" 200 -
+2025-02-04 16:29:46,589 - INFO - 127.0.0.1 - - [04/Feb/2025 16:29:46] "[33mPOST /api/heroes/null/ HTTP/1.1[0m" 404 -
+2025-02-04 16:29:46,705 - INFO - 127.0.0.1 - - [04/Feb/2025 16:29:46] "GET /api/heroes/null/ HTTP/1.1" 200 -
+2025-02-04 16:31:11,962 - INFO - Received request for current user information
+2025-02-04 16:31:11,963 - INFO - Retrieved current user information for user: test@test.com
+2025-02-04 16:31:11,964 - INFO - 127.0.0.1 - - [04/Feb/2025 16:31:11] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 16:31:12,107 - INFO - 127.0.0.1 - - [04/Feb/2025 16:31:12] "GET /api/heroes/null/ HTTP/1.1" 200 -
+2025-02-04 16:31:30,312 - INFO - 127.0.0.1 - - [04/Feb/2025 16:31:30] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:31:30,323 - INFO - Received login request for email: test@test.com from IP: 127.0.0.1
+2025-02-04 16:31:30,402 - INFO - User logged in successfully: email: test@test.com, IP: 127.0.0.1
+2025-02-04 16:31:30,403 - INFO - Login successful for email: test@test.com
+2025-02-04 16:31:30,404 - INFO - 127.0.0.1 - - [04/Feb/2025 16:31:30] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:31:32,495 - INFO - Received request for current user information
+2025-02-04 16:31:32,496 - INFO - 127.0.0.1 - - [04/Feb/2025 16:31:32] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 16:31:32,497 - INFO - Retrieved current user information for user: test@test.com
+2025-02-04 16:31:32,498 - INFO - 127.0.0.1 - - [04/Feb/2025 16:31:32] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 16:31:35,655 - INFO - 127.0.0.1 - - [04/Feb/2025 16:31:35] "OPTIONS /api/towns/ HTTP/1.1" 200 -
+2025-02-04 16:31:35,676 - INFO - 127.0.0.1 - - [04/Feb/2025 16:31:35] "[35m[1mPOST /api/towns/ HTTP/1.1[0m" 201 -
+2025-02-04 16:31:35,741 - INFO - 127.0.0.1 - - [04/Feb/2025 16:31:35] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-04 16:31:39,192 - INFO - 127.0.0.1 - - [04/Feb/2025 16:31:39] "OPTIONS /api/heroes/null/ HTTP/1.1" 200 -
+2025-02-04 16:31:39,204 - INFO - 127.0.0.1 - - [04/Feb/2025 16:31:39] "[33mPOST /api/heroes/null/ HTTP/1.1[0m" 404 -
+2025-02-04 16:31:39,302 - INFO - 127.0.0.1 - - [04/Feb/2025 16:31:39] "GET /api/heroes/null/ HTTP/1.1" 200 -
+2025-02-04 16:33:29,918 - INFO - Received request for current user information
+2025-02-04 16:33:29,918 - INFO - Retrieved current user information for user: test@test.com
+2025-02-04 16:33:29,919 - INFO - 127.0.0.1 - - [04/Feb/2025 16:33:29] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 16:33:30,101 - INFO - 127.0.0.1 - - [04/Feb/2025 16:33:30] "GET /api/heroes/null/ HTTP/1.1" 200 -
+2025-02-04 16:33:32,087 - INFO - Received logout request for user: test@test.com
+2025-02-04 16:33:32,088 - ERROR - Exception on /api/auth/logout [POST]
+Traceback (most recent call last):
+  File "C:\Users\14434\Desktop\Programming Projects\mayorpg2\backend\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14434\Desktop\Programming Projects\mayorpg2\backend\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14434\Desktop\Programming Projects\mayorpg2\backend\venv\Lib\site-packages\flask_restx\api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14434\Desktop\Programming Projects\mayorpg2\backend\venv\Lib\site-packages\flask\views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14434\Desktop\Programming Projects\mayorpg2\backend\venv\Lib\site-packages\flask_restx\resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14434\Desktop\Programming Projects\mayorpg2\backend\venv\Lib\site-packages\flask_login\utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14434\Desktop\mayoRPG2\backend\api\controllers\auth.py", line 74, in post
+    response = AuthService.logout(current_user)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14434\Desktop\mayoRPG2\backend\api\services\auth.py", line 86, in logout
+    logger.info("User logged out successfully: email: %s", current_user.email)
+                                                           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'AnonymousUserMixin' object has no attribute 'email'
+2025-02-04 16:33:32,165 - INFO - 127.0.0.1 - - [04/Feb/2025 16:33:32] "[35m[1mPOST /api/auth/logout HTTP/1.1[0m" 500 -
+2025-02-04 16:36:13,015 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-04 16:36:13,016 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-04 16:36:31,151 - INFO - 127.0.0.1 - - [04/Feb/2025 16:36:31] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:36:31,155 - INFO - Received login request for email: thetoasthobo@gmail.com from IP: 127.0.0.1
+2025-02-04 16:36:31,252 - INFO - User logged in successfully: email: thetoasthobo@gmail.com, IP: 127.0.0.1
+2025-02-04 16:36:31,255 - INFO - Login successful for email: thetoasthobo@gmail.com
+2025-02-04 16:36:31,256 - INFO - 127.0.0.1 - - [04/Feb/2025 16:36:31] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:36:33,361 - INFO - 127.0.0.1 - - [04/Feb/2025 16:36:33] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 16:36:33,368 - INFO - Received request for current user information
+2025-02-04 16:36:33,369 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-04 16:36:33,369 - INFO - 127.0.0.1 - - [04/Feb/2025 16:36:33] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 16:36:35,222 - INFO - 127.0.0.1 - - [04/Feb/2025 16:36:35] "GET /api/towns/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-04 16:36:35,339 - INFO - 127.0.0.1 - - [04/Feb/2025 16:36:35] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-04 16:36:37,070 - INFO - Received logout request for user: thetoasthobo@gmail.com
+2025-02-04 16:36:37,071 - INFO - User logged out successfully: email: thetoasthobo@gmail.com
+2025-02-04 16:36:37,071 - INFO - Logout response: 200
+2025-02-04 16:36:37,072 - INFO - 127.0.0.1 - - [04/Feb/2025 16:36:37] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-04 16:36:52,534 - INFO - 127.0.0.1 - - [04/Feb/2025 16:36:52] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:36:52,539 - INFO - Received login request for email: thetoasthobo@gmail.com from IP: 127.0.0.1
+2025-02-04 16:36:52,620 - INFO - User logged in successfully: email: thetoasthobo@gmail.com, IP: 127.0.0.1
+2025-02-04 16:36:52,621 - INFO - Login successful for email: thetoasthobo@gmail.com
+2025-02-04 16:36:52,622 - INFO - 127.0.0.1 - - [04/Feb/2025 16:36:52] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:36:54,746 - INFO - Received request for current user information
+2025-02-04 16:36:54,746 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-04 16:36:54,747 - INFO - 127.0.0.1 - - [04/Feb/2025 16:36:54] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 16:36:54,752 - INFO - 127.0.0.1 - - [04/Feb/2025 16:36:54] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 16:36:58,704 - INFO - 127.0.0.1 - - [04/Feb/2025 16:36:58] "OPTIONS /api/towns/ HTTP/1.1" 200 -
+2025-02-04 16:36:58,801 - INFO - 127.0.0.1 - - [04/Feb/2025 16:36:58] "[35m[1mPOST /api/towns/ HTTP/1.1[0m" 201 -
+2025-02-04 16:36:58,806 - INFO - 127.0.0.1 - - [04/Feb/2025 16:36:58] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-04 16:37:01,056 - INFO - 127.0.0.1 - - [04/Feb/2025 16:37:01] "OPTIONS /api/heroes/null/ HTTP/1.1" 200 -
+2025-02-04 16:37:01,066 - INFO - 127.0.0.1 - - [04/Feb/2025 16:37:01] "[33mPOST /api/heroes/null/ HTTP/1.1[0m" 404 -
+2025-02-04 16:37:01,169 - INFO - 127.0.0.1 - - [04/Feb/2025 16:37:01] "[33mGET /api/heroes/null/ HTTP/1.1[0m" 404 -
+2025-02-04 16:37:04,829 - INFO - Received request for current user information
+2025-02-04 16:37:04,829 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-04 16:37:04,831 - INFO - 127.0.0.1 - - [04/Feb/2025 16:37:04] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 16:37:04,981 - INFO - 127.0.0.1 - - [04/Feb/2025 16:37:04] "[33mGET /api/heroes/null/ HTTP/1.1[0m" 404 -
+2025-02-04 16:37:07,275 - INFO - 127.0.0.1 - - [04/Feb/2025 16:37:07] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-04 16:37:09,074 - INFO - 127.0.0.1 - - [04/Feb/2025 16:37:09] "OPTIONS /api/heroes/null/ HTTP/1.1" 200 -
+2025-02-04 16:37:09,084 - INFO - 127.0.0.1 - - [04/Feb/2025 16:37:09] "[33mGET /api/heroes/null/ HTTP/1.1[0m" 404 -
+2025-02-04 16:37:09,094 - INFO - 127.0.0.1 - - [04/Feb/2025 16:37:09] "[33mPOST /api/heroes/null/ HTTP/1.1[0m" 404 -
+2025-02-04 16:37:15,204 - INFO - 127.0.0.1 - - [04/Feb/2025 16:37:15] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-04 16:37:15,988 - INFO - 127.0.0.1 - - [04/Feb/2025 16:37:15] "[33mGET /api/heroes/null/ HTTP/1.1[0m" 404 -
+2025-02-04 16:37:17,512 - INFO - Received request for current user information
+2025-02-04 16:37:17,512 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-04 16:37:17,513 - INFO - 127.0.0.1 - - [04/Feb/2025 16:37:17] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 16:37:17,645 - INFO - 127.0.0.1 - - [04/Feb/2025 16:37:17] "[33mGET /api/heroes/null/ HTTP/1.1[0m" 404 -
+2025-02-04 16:37:25,131 - INFO - Received logout request for user: thetoasthobo@gmail.com
+2025-02-04 16:37:25,131 - INFO - User logged out successfully: email: thetoasthobo@gmail.com
+2025-02-04 16:37:25,132 - INFO - Logout response: 200
+2025-02-04 16:37:25,132 - INFO - 127.0.0.1 - - [04/Feb/2025 16:37:25] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-04 16:48:36,711 - INFO - 127.0.0.1 - - [04/Feb/2025 16:48:36] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:48:36,725 - INFO - Received login request for email: test@test.com from IP: 127.0.0.1
+2025-02-04 16:48:36,810 - INFO - User logged in successfully: email: test@test.com, IP: 127.0.0.1
+2025-02-04 16:48:36,811 - INFO - Login successful for email: test@test.com
+2025-02-04 16:48:36,812 - INFO - 127.0.0.1 - - [04/Feb/2025 16:48:36] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:48:38,989 - INFO - Received request for current user information
+2025-02-04 16:48:38,990 - INFO - Retrieved current user information for user: test@test.com
+2025-02-04 16:48:38,991 - INFO - 127.0.0.1 - - [04/Feb/2025 16:48:38] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 16:48:38,994 - INFO - 127.0.0.1 - - [04/Feb/2025 16:48:38] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 16:48:47,722 - INFO - 127.0.0.1 - - [04/Feb/2025 16:48:47] "OPTIONS /api/towns/ HTTP/1.1" 200 -
+2025-02-04 16:48:47,795 - INFO - 127.0.0.1 - - [04/Feb/2025 16:48:47] "[35m[1mPOST /api/towns/ HTTP/1.1[0m" 201 -
+2025-02-04 16:48:49,591 - INFO - 127.0.0.1 - - [04/Feb/2025 16:48:49] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-04 16:48:53,817 - INFO - 127.0.0.1 - - [04/Feb/2025 16:48:53] "OPTIONS /api/heroes/null/ HTTP/1.1" 200 -
+2025-02-04 16:48:53,828 - INFO - 127.0.0.1 - - [04/Feb/2025 16:48:53] "[33mPOST /api/heroes/null/ HTTP/1.1[0m" 404 -
+2025-02-04 16:48:53,924 - INFO - 127.0.0.1 - - [04/Feb/2025 16:48:53] "[33mGET /api/heroes/null/ HTTP/1.1[0m" 404 -
+2025-02-04 16:50:00,743 - INFO - Received request for current user information
+2025-02-04 16:50:00,743 - INFO - Retrieved current user information for user: test@test.com
+2025-02-04 16:50:00,744 - INFO - 127.0.0.1 - - [04/Feb/2025 16:50:00] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 16:50:00,985 - INFO - 127.0.0.1 - - [04/Feb/2025 16:50:00] "[33mGET /api/heroes/null/ HTTP/1.1[0m" 404 -
+2025-02-04 16:50:12,339 - INFO - Received logout request for user: test@test.com
+2025-02-04 16:50:12,339 - INFO - User logged out successfully: email: test@test.com
+2025-02-04 16:50:12,339 - INFO - Logout response: 200
+2025-02-04 16:50:12,340 - INFO - 127.0.0.1 - - [04/Feb/2025 16:50:12] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-04 16:50:49,417 - INFO - 127.0.0.1 - - [04/Feb/2025 16:50:49] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:50:49,425 - INFO - Received login request for email: test@test.com from IP: 127.0.0.1
+2025-02-04 16:50:49,505 - INFO - User logged in successfully: email: test@test.com, IP: 127.0.0.1
+2025-02-04 16:50:49,506 - INFO - Login successful for email: test@test.com
+2025-02-04 16:50:49,507 - INFO - 127.0.0.1 - - [04/Feb/2025 16:50:49] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:50:51,670 - INFO - 127.0.0.1 - - [04/Feb/2025 16:50:51] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 16:50:51,681 - INFO - Received request for current user information
+2025-02-04 16:50:51,682 - INFO - Retrieved current user information for user: test@test.com
+2025-02-04 16:50:51,683 - INFO - 127.0.0.1 - - [04/Feb/2025 16:50:51] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 16:50:55,527 - INFO - 127.0.0.1 - - [04/Feb/2025 16:50:55] "GET /api/towns/dc711318-76be-4ae9-a894-e0c3bf2ee35e/ HTTP/1.1" 200 -
+2025-02-04 16:50:55,719 - INFO - 127.0.0.1 - - [04/Feb/2025 16:50:55] "GET /api/heroes/dc711318-76be-4ae9-a894-e0c3bf2ee35e/ HTTP/1.1" 200 -
+2025-02-04 16:51:31,344 - INFO - 127.0.0.1 - - [04/Feb/2025 16:51:31] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-04 16:51:33,506 - INFO - 127.0.0.1 - - [04/Feb/2025 16:51:33] "OPTIONS /api/heroes/dc711318-76be-4ae9-a894-e0c3bf2ee35e/ HTTP/1.1" 200 -
+2025-02-04 16:51:33,587 - INFO - 127.0.0.1 - - [04/Feb/2025 16:51:33] "[35m[1mPOST /api/heroes/dc711318-76be-4ae9-a894-e0c3bf2ee35e/ HTTP/1.1[0m" 201 -
+2025-02-04 16:51:33,600 - INFO - 127.0.0.1 - - [04/Feb/2025 16:51:33] "GET /api/heroes/dc711318-76be-4ae9-a894-e0c3bf2ee35e/ HTTP/1.1" 200 -
+2025-02-04 16:51:35,825 - INFO - Received logout request for user: test@test.com
+2025-02-04 16:51:35,826 - INFO - User logged out successfully: email: test@test.com
+2025-02-04 16:51:35,826 - INFO - Logout response: 200
+2025-02-04 16:51:35,827 - INFO - 127.0.0.1 - - [04/Feb/2025 16:51:35] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-04 16:51:51,435 - INFO - 127.0.0.1 - - [04/Feb/2025 16:51:51] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:51:51,492 - INFO - Received login request for email: test@test.com from IP: 127.0.0.1
+2025-02-04 16:51:51,573 - INFO - User logged in successfully: email: test@test.com, IP: 127.0.0.1
+2025-02-04 16:51:51,574 - INFO - Login successful for email: test@test.com
+2025-02-04 16:51:51,575 - INFO - 127.0.0.1 - - [04/Feb/2025 16:51:51] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:51:53,671 - INFO - Received request for current user information
+2025-02-04 16:51:53,672 - INFO - Retrieved current user information for user: test@test.com
+2025-02-04 16:51:53,674 - INFO - 127.0.0.1 - - [04/Feb/2025 16:51:53] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 16:51:53,677 - INFO - 127.0.0.1 - - [04/Feb/2025 16:51:53] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 16:51:58,230 - INFO - 127.0.0.1 - - [04/Feb/2025 16:51:58] "GET /api/towns/e65d672a-6316-4f6c-b4f7-06a33a2f4fab/ HTTP/1.1" 200 -
+2025-02-04 16:51:58,427 - INFO - 127.0.0.1 - - [04/Feb/2025 16:51:58] "GET /api/heroes/e65d672a-6316-4f6c-b4f7-06a33a2f4fab/ HTTP/1.1" 200 -
+2025-02-04 16:52:03,436 - INFO - Received logout request for user: test@test.com
+2025-02-04 16:52:03,437 - INFO - User logged out successfully: email: test@test.com
+2025-02-04 16:52:03,437 - INFO - Logout response: 200
+2025-02-04 16:52:03,438 - INFO - 127.0.0.1 - - [04/Feb/2025 16:52:03] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-04 16:52:19,345 - INFO - 127.0.0.1 - - [04/Feb/2025 16:52:19] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:52:19,352 - INFO - Received login request for email: test@test.com from IP: 127.0.0.1
+2025-02-04 16:52:19,432 - INFO - User logged in successfully: email: test@test.com, IP: 127.0.0.1
+2025-02-04 16:52:19,433 - INFO - Login successful for email: test@test.com
+2025-02-04 16:52:19,434 - INFO - 127.0.0.1 - - [04/Feb/2025 16:52:19] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:52:21,541 - INFO - Received request for current user information
+2025-02-04 16:52:21,542 - INFO - Retrieved current user information for user: test@test.com
+2025-02-04 16:52:21,542 - INFO - 127.0.0.1 - - [04/Feb/2025 16:52:21] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 16:52:21,553 - INFO - 127.0.0.1 - - [04/Feb/2025 16:52:21] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 16:52:32,776 - INFO - 127.0.0.1 - - [04/Feb/2025 16:52:32] "OPTIONS /api/towns/ HTTP/1.1" 200 -
+2025-02-04 16:52:32,799 - INFO - 127.0.0.1 - - [04/Feb/2025 16:52:32] "[35m[1mPOST /api/towns/ HTTP/1.1[0m" 201 -
+2025-02-04 16:52:34,981 - INFO - 127.0.0.1 - - [04/Feb/2025 16:52:34] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-04 16:52:39,028 - INFO - 127.0.0.1 - - [04/Feb/2025 16:52:39] "OPTIONS /api/heroes/null/ HTTP/1.1" 200 -
+2025-02-04 16:52:39,042 - INFO - 127.0.0.1 - - [04/Feb/2025 16:52:39] "[33mPOST /api/heroes/null/ HTTP/1.1[0m" 404 -
+2025-02-04 16:52:39,242 - INFO - 127.0.0.1 - - [04/Feb/2025 16:52:39] "[33mGET /api/heroes/null/ HTTP/1.1[0m" 404 -
+2025-02-04 16:53:36,468 - INFO - 127.0.0.1 - - [04/Feb/2025 16:53:36] "[33mGET /api/heroes/null/ HTTP/1.1[0m" 404 -
+2025-02-04 16:56:23,188 - INFO - Received request for current user information
+2025-02-04 16:56:23,189 - INFO - Retrieved current user information for user: test@test.com
+2025-02-04 16:56:23,189 - INFO - 127.0.0.1 - - [04/Feb/2025 16:56:23] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 16:56:23,460 - INFO - 127.0.0.1 - - [04/Feb/2025 16:56:23] "[33mGET /api/heroes/null/ HTTP/1.1[0m" 404 -
+2025-02-04 16:56:27,459 - INFO - Received logout request for user: test@test.com
+2025-02-04 16:56:27,460 - INFO - User logged out successfully: email: test@test.com
+2025-02-04 16:56:27,460 - INFO - Logout response: 200
+2025-02-04 16:56:27,461 - INFO - 127.0.0.1 - - [04/Feb/2025 16:56:27] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-04 16:56:52,895 - INFO - 127.0.0.1 - - [04/Feb/2025 16:56:52] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:56:52,909 - INFO - Received login request for email: ethanjwaggoner@gmail.com from IP: 127.0.0.1
+2025-02-04 16:56:52,910 - WARNING - Invalid login attempt for email: ethanjwaggoner@gmail.com from IP: 127.0.0.1
+2025-02-04 16:56:52,910 - WARNING - Login failed for email: ethanjwaggoner@gmail.com with status code: 401
+2025-02-04 16:56:52,911 - INFO - 127.0.0.1 - - [04/Feb/2025 16:56:52] "[31m[1mPOST /api/auth/login HTTP/1.1[0m" 401 -
+2025-02-04 16:56:56,886 - INFO - Received login request for email: ethanjwaggoner@gmail.com from IP: 127.0.0.1
+2025-02-04 16:56:56,887 - WARNING - Invalid login attempt for email: ethanjwaggoner@gmail.com from IP: 127.0.0.1
+2025-02-04 16:56:56,887 - WARNING - Login failed for email: ethanjwaggoner@gmail.com with status code: 401
+2025-02-04 16:56:56,888 - INFO - 127.0.0.1 - - [04/Feb/2025 16:56:56] "[31m[1mPOST /api/auth/login HTTP/1.1[0m" 401 -
+2025-02-04 16:56:57,917 - INFO - 127.0.0.1 - - [04/Feb/2025 16:56:57] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:56:57,925 - INFO - Received login request for email: ethanjwaggoner@gmail.com from IP: 127.0.0.1
+2025-02-04 16:56:57,926 - WARNING - Invalid login attempt for email: ethanjwaggoner@gmail.com from IP: 127.0.0.1
+2025-02-04 16:56:57,926 - WARNING - Login failed for email: ethanjwaggoner@gmail.com with status code: 401
+2025-02-04 16:56:57,927 - INFO - 127.0.0.1 - - [04/Feb/2025 16:56:57] "[31m[1mPOST /api/auth/login HTTP/1.1[0m" 401 -
+2025-02-04 16:57:27,418 - INFO - 127.0.0.1 - - [04/Feb/2025 16:57:27] "OPTIONS /api/auth/signup HTTP/1.1" 200 -
+2025-02-04 16:57:27,425 - INFO - Received signup request for email: ethanjwaggoner@gmail.com, username: mayowaffles
+2025-02-04 16:57:27,513 - INFO - User created successfully: email: ethanjwaggoner@gmail.com, username: mayowaffles, id: 3
+2025-02-04 16:57:27,516 - INFO - Signup response for email ethanjwaggoner@gmail.com: 201
+2025-02-04 16:57:27,516 - INFO - 127.0.0.1 - - [04/Feb/2025 16:57:27] "[35m[1mPOST /api/auth/signup HTTP/1.1[0m" 201 -
+2025-02-04 16:57:38,495 - INFO - 127.0.0.1 - - [04/Feb/2025 16:57:38] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:57:38,501 - INFO - Received login request for email: ethanjwaggoner@gmail.com from IP: 127.0.0.1
+2025-02-04 16:57:38,586 - INFO - User logged in successfully: email: ethanjwaggoner@gmail.com, IP: 127.0.0.1
+2025-02-04 16:57:38,588 - INFO - Login successful for email: ethanjwaggoner@gmail.com
+2025-02-04 16:57:38,589 - INFO - 127.0.0.1 - - [04/Feb/2025 16:57:38] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 16:57:40,712 - INFO - 127.0.0.1 - - [04/Feb/2025 16:57:40] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 16:57:40,713 - INFO - Received request for current user information
+2025-02-04 16:57:40,713 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 16:57:40,714 - INFO - 127.0.0.1 - - [04/Feb/2025 16:57:40] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 16:57:49,784 - INFO - 127.0.0.1 - - [04/Feb/2025 16:57:49] "OPTIONS /api/towns/ HTTP/1.1" 200 -
+2025-02-04 16:57:49,804 - INFO - 127.0.0.1 - - [04/Feb/2025 16:57:49] "[35m[1mPOST /api/towns/ HTTP/1.1[0m" 201 -
+2025-02-04 16:57:51,973 - INFO - 127.0.0.1 - - [04/Feb/2025 16:57:51] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-04 16:57:55,950 - INFO - 127.0.0.1 - - [04/Feb/2025 16:57:55] "OPTIONS /api/heroes/null/ HTTP/1.1" 200 -
+2025-02-04 16:57:55,965 - INFO - 127.0.0.1 - - [04/Feb/2025 16:57:55] "[33mPOST /api/heroes/null/ HTTP/1.1[0m" 404 -
+2025-02-04 16:57:56,190 - INFO - 127.0.0.1 - - [04/Feb/2025 16:57:56] "[33mGET /api/heroes/null/ HTTP/1.1[0m" 404 -
+2025-02-04 17:02:33,007 - INFO - Received request for current user information
+2025-02-04 17:02:33,007 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:02:33,008 - INFO - 127.0.0.1 - - [04/Feb/2025 17:02:33] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:02:41,206 - INFO - Received request for current user information
+2025-02-04 17:02:41,206 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:02:41,207 - INFO - 127.0.0.1 - - [04/Feb/2025 17:02:41] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:06:34,750 - INFO - Received request for current user information
+2025-02-04 17:06:34,751 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:06:34,751 - INFO - 127.0.0.1 - - [04/Feb/2025 17:06:34] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:06:41,003 - INFO - Received logout request for user: ethanjwaggoner@gmail.com
+2025-02-04 17:06:41,004 - INFO - User logged out successfully: email: ethanjwaggoner@gmail.com
+2025-02-04 17:06:41,004 - INFO - Logout response: 200
+2025-02-04 17:06:41,005 - INFO - 127.0.0.1 - - [04/Feb/2025 17:06:41] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-04 17:07:09,583 - INFO - 127.0.0.1 - - [04/Feb/2025 17:07:09] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:07:09,587 - INFO - Received login request for email: ethanjwaggoner@gmail.com from IP: 127.0.0.1
+2025-02-04 17:07:09,671 - INFO - User logged in successfully: email: ethanjwaggoner@gmail.com, IP: 127.0.0.1
+2025-02-04 17:07:09,672 - INFO - Login successful for email: ethanjwaggoner@gmail.com
+2025-02-04 17:07:09,672 - INFO - 127.0.0.1 - - [04/Feb/2025 17:07:09] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:07:11,792 - INFO - Received request for current user information
+2025-02-04 17:07:11,793 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:07:11,794 - INFO - 127.0.0.1 - - [04/Feb/2025 17:07:11] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:07:11,795 - INFO - 127.0.0.1 - - [04/Feb/2025 17:07:11] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:07:16,980 - INFO - 127.0.0.1 - - [04/Feb/2025 17:07:16] "GET /api/towns/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:07:17,194 - INFO - 127.0.0.1 - - [04/Feb/2025 17:07:17] "GET /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:07:19,213 - INFO - 127.0.0.1 - - [04/Feb/2025 17:07:19] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-04 17:07:21,442 - INFO - 127.0.0.1 - - [04/Feb/2025 17:07:21] "OPTIONS /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:07:21,520 - INFO - 127.0.0.1 - - [04/Feb/2025 17:07:21] "[35m[1mPOST /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1[0m" 201 -
+2025-02-04 17:07:21,535 - INFO - 127.0.0.1 - - [04/Feb/2025 17:07:21] "GET /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:07:23,973 - INFO - Received logout request for user: ethanjwaggoner@gmail.com
+2025-02-04 17:07:23,974 - INFO - User logged out successfully: email: ethanjwaggoner@gmail.com
+2025-02-04 17:07:23,974 - INFO - Logout response: 200
+2025-02-04 17:07:23,974 - INFO - 127.0.0.1 - - [04/Feb/2025 17:07:23] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-04 17:07:40,303 - INFO - 127.0.0.1 - - [04/Feb/2025 17:07:40] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:07:40,309 - INFO - Received login request for email: ethanjwaggoner@gmail.com from IP: 127.0.0.1
+2025-02-04 17:07:40,390 - INFO - User logged in successfully: email: ethanjwaggoner@gmail.com, IP: 127.0.0.1
+2025-02-04 17:07:40,391 - INFO - Login successful for email: ethanjwaggoner@gmail.com
+2025-02-04 17:07:40,392 - INFO - 127.0.0.1 - - [04/Feb/2025 17:07:40] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:07:42,539 - INFO - Received request for current user information
+2025-02-04 17:07:42,540 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:07:42,540 - INFO - 127.0.0.1 - - [04/Feb/2025 17:07:42] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:07:42,542 - INFO - 127.0.0.1 - - [04/Feb/2025 17:07:42] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:07:46,108 - INFO - 127.0.0.1 - - [04/Feb/2025 17:07:46] "OPTIONS /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:07:46,131 - INFO - 127.0.0.1 - - [04/Feb/2025 17:07:46] "[35m[1mPOST /api/towns/ HTTP/1.1[0m" 201 -
+2025-02-04 17:07:46,297 - INFO - 127.0.0.1 - - [04/Feb/2025 17:07:46] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-04 17:07:52,408 - INFO - 127.0.0.1 - - [04/Feb/2025 17:07:52] "OPTIONS /api/heroes/a7c38d01-bca8-4d3e-9044-147a72cda54e/ HTTP/1.1" 200 -
+2025-02-04 17:07:52,435 - INFO - 127.0.0.1 - - [04/Feb/2025 17:07:52] "[35m[1mPOST /api/heroes/a7c38d01-bca8-4d3e-9044-147a72cda54e/ HTTP/1.1[0m" 201 -
+2025-02-04 17:07:52,619 - INFO - 127.0.0.1 - - [04/Feb/2025 17:07:52] "GET /api/heroes/a7c38d01-bca8-4d3e-9044-147a72cda54e/ HTTP/1.1" 200 -
+2025-02-04 17:07:55,923 - INFO - Received request for current user information
+2025-02-04 17:07:55,923 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:07:55,924 - INFO - 127.0.0.1 - - [04/Feb/2025 17:07:55] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:08:35,839 - INFO - Received request for current user information
+2025-02-04 17:08:35,839 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:08:35,840 - INFO - 127.0.0.1 - - [04/Feb/2025 17:08:35] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:09:00,338 - INFO - Received request for current user information
+2025-02-04 17:09:00,339 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:09:00,339 - INFO - 127.0.0.1 - - [04/Feb/2025 17:09:00] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:09:11,416 - INFO - Received logout request for user: ethanjwaggoner@gmail.com
+2025-02-04 17:09:11,417 - INFO - User logged out successfully: email: ethanjwaggoner@gmail.com
+2025-02-04 17:09:11,417 - INFO - Logout response: 200
+2025-02-04 17:09:11,418 - INFO - 127.0.0.1 - - [04/Feb/2025 17:09:11] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-04 17:09:21,585 - INFO - 127.0.0.1 - - [04/Feb/2025 17:09:21] "[31m[1mPOST /api/auth/logout HTTP/1.1[0m" 401 -
+2025-02-04 17:09:34,723 - INFO - 127.0.0.1 - - [04/Feb/2025 17:09:34] "[31m[1mPOST /api/auth/logout HTTP/1.1[0m" 401 -
+2025-02-04 17:10:16,495 - INFO - 127.0.0.1 - - [04/Feb/2025 17:10:16] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:10:16,502 - INFO - Received login request for email: ethanjwaggoner@gmail.com from IP: 127.0.0.1
+2025-02-04 17:10:16,582 - INFO - User logged in successfully: email: ethanjwaggoner@gmail.com, IP: 127.0.0.1
+2025-02-04 17:10:16,583 - INFO - Login successful for email: ethanjwaggoner@gmail.com
+2025-02-04 17:10:16,584 - INFO - 127.0.0.1 - - [04/Feb/2025 17:10:16] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:10:18,694 - INFO - Received request for current user information
+2025-02-04 17:10:18,695 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:10:18,696 - INFO - 127.0.0.1 - - [04/Feb/2025 17:10:18] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:10:18,697 - INFO - 127.0.0.1 - - [04/Feb/2025 17:10:18] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:10:20,524 - INFO - 127.0.0.1 - - [04/Feb/2025 17:10:20] "GET /api/towns/a7c38d01-bca8-4d3e-9044-147a72cda54e/ HTTP/1.1" 200 -
+2025-02-04 17:10:20,719 - INFO - 127.0.0.1 - - [04/Feb/2025 17:10:20] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:10:20,753 - INFO - 127.0.0.1 - - [04/Feb/2025 17:10:20] "GET /api/heroes/a7c38d01-bca8-4d3e-9044-147a72cda54e/ HTTP/1.1" 200 -
+2025-02-04 17:10:29,851 - INFO - Received request for current user information
+2025-02-04 17:10:29,851 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:10:29,852 - INFO - 127.0.0.1 - - [04/Feb/2025 17:10:29] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:10:30,136 - INFO - 127.0.0.1 - - [04/Feb/2025 17:10:30] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:12:00,634 - INFO - Received request for current user information
+2025-02-04 17:12:00,634 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:12:00,635 - INFO - 127.0.0.1 - - [04/Feb/2025 17:12:00] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:12:00,939 - INFO - 127.0.0.1 - - [04/Feb/2025 17:12:00] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:12:35,049 - INFO - Received request for current user information
+2025-02-04 17:12:35,049 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:12:35,050 - INFO - 127.0.0.1 - - [04/Feb/2025 17:12:35] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:12:35,307 - INFO - 127.0.0.1 - - [04/Feb/2025 17:12:35] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:13:20,825 - INFO - Received request for current user information
+2025-02-04 17:13:20,825 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:13:20,826 - INFO - 127.0.0.1 - - [04/Feb/2025 17:13:20] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:13:21,126 - INFO - 127.0.0.1 - - [04/Feb/2025 17:13:21] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-04 17:13:24,263 - INFO - 127.0.0.1 - - [04/Feb/2025 17:13:24] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:15:53,431 - INFO - Received request for current user information
+2025-02-04 17:15:53,431 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:15:53,432 - INFO - 127.0.0.1 - - [04/Feb/2025 17:15:53] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:15:53,845 - INFO - 127.0.0.1 - - [04/Feb/2025 17:15:53] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:15:54,065 - INFO - 127.0.0.1 - - [04/Feb/2025 17:15:54] "GET /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:16:00,733 - INFO - Received logout request for user: ethanjwaggoner@gmail.com
+2025-02-04 17:16:00,734 - INFO - User logged out successfully: email: ethanjwaggoner@gmail.com
+2025-02-04 17:16:00,734 - INFO - Logout response: 200
+2025-02-04 17:16:00,735 - INFO - 127.0.0.1 - - [04/Feb/2025 17:16:00] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-04 17:16:19,421 - INFO - 127.0.0.1 - - [04/Feb/2025 17:16:19] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:16:19,426 - INFO - Received login request for email: ethanjwaggoner@gmail.com from IP: 127.0.0.1
+2025-02-04 17:16:19,522 - INFO - User logged in successfully: email: ethanjwaggoner@gmail.com, IP: 127.0.0.1
+2025-02-04 17:16:19,524 - INFO - Login successful for email: ethanjwaggoner@gmail.com
+2025-02-04 17:16:19,524 - INFO - 127.0.0.1 - - [04/Feb/2025 17:16:19] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:16:21,633 - INFO - Received request for current user information
+2025-02-04 17:16:21,635 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:16:21,636 - INFO - 127.0.0.1 - - [04/Feb/2025 17:16:21] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:16:21,639 - INFO - 127.0.0.1 - - [04/Feb/2025 17:16:21] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:16:23,758 - INFO - 127.0.0.1 - - [04/Feb/2025 17:16:23] "GET /api/towns/a7c38d01-bca8-4d3e-9044-147a72cda54e/ HTTP/1.1" 200 -
+2025-02-04 17:16:23,985 - INFO - 127.0.0.1 - - [04/Feb/2025 17:16:23] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:16:24,058 - INFO - 127.0.0.1 - - [04/Feb/2025 17:16:24] "GET /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:16:26,728 - INFO - Received request for current user information
+2025-02-04 17:16:26,729 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:16:26,731 - INFO - 127.0.0.1 - - [04/Feb/2025 17:16:26] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:16:26,732 - INFO - 127.0.0.1 - - [04/Feb/2025 17:16:26] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:16:27,701 - INFO - 127.0.0.1 - - [04/Feb/2025 17:16:27] "GET /api/towns/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:16:27,768 - INFO - 127.0.0.1 - - [04/Feb/2025 17:16:27] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:16:27,828 - INFO - 127.0.0.1 - - [04/Feb/2025 17:16:27] "GET /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:16:29,713 - INFO - Received request for current user information
+2025-02-04 17:16:29,714 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:16:29,715 - INFO - 127.0.0.1 - - [04/Feb/2025 17:16:29] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:16:29,718 - INFO - 127.0.0.1 - - [04/Feb/2025 17:16:29] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:16:37,237 - INFO - 127.0.0.1 - - [04/Feb/2025 17:16:37] "OPTIONS /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:16:37,259 - INFO - 127.0.0.1 - - [04/Feb/2025 17:16:37] "[35m[1mPOST /api/towns/ HTTP/1.1[0m" 201 -
+2025-02-04 17:16:39,462 - INFO - 127.0.0.1 - - [04/Feb/2025 17:16:39] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-04 17:16:45,089 - INFO - 127.0.0.1 - - [04/Feb/2025 17:16:45] "OPTIONS /api/heroes/2eedeb16-e531-483f-a39d-3dcea410cc19/ HTTP/1.1" 200 -
+2025-02-04 17:16:45,132 - INFO - 127.0.0.1 - - [04/Feb/2025 17:16:45] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:16:45,163 - INFO - 127.0.0.1 - - [04/Feb/2025 17:16:45] "[35m[1mPOST /api/heroes/2eedeb16-e531-483f-a39d-3dcea410cc19/ HTTP/1.1[0m" 201 -
+2025-02-04 17:16:45,185 - INFO - 127.0.0.1 - - [04/Feb/2025 17:16:45] "GET /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:19:37,350 - INFO - Received request for current user information
+2025-02-04 17:19:37,351 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:19:37,352 - INFO - 127.0.0.1 - - [04/Feb/2025 17:19:37] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:19:37,633 - INFO - 127.0.0.1 - - [04/Feb/2025 17:19:37] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:19:37,674 - INFO - 127.0.0.1 - - [04/Feb/2025 17:19:37] "GET /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:19:40,370 - INFO - Received logout request for user: ethanjwaggoner@gmail.com
+2025-02-04 17:19:40,370 - INFO - User logged out successfully: email: ethanjwaggoner@gmail.com
+2025-02-04 17:19:40,371 - INFO - Logout response: 200
+2025-02-04 17:19:40,371 - INFO - 127.0.0.1 - - [04/Feb/2025 17:19:40] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-04 17:19:54,520 - INFO - 127.0.0.1 - - [04/Feb/2025 17:19:54] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:19:54,533 - INFO - Received login request for email: ethanjwaggoner@gmail.com from IP: 127.0.0.1
+2025-02-04 17:19:54,613 - INFO - User logged in successfully: email: ethanjwaggoner@gmail.com, IP: 127.0.0.1
+2025-02-04 17:19:54,614 - INFO - Login successful for email: ethanjwaggoner@gmail.com
+2025-02-04 17:19:54,615 - INFO - 127.0.0.1 - - [04/Feb/2025 17:19:54] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:19:56,707 - INFO - Received request for current user information
+2025-02-04 17:19:56,708 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:19:56,709 - INFO - 127.0.0.1 - - [04/Feb/2025 17:19:56] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:19:56,712 - INFO - 127.0.0.1 - - [04/Feb/2025 17:19:56] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:19:58,784 - INFO - 127.0.0.1 - - [04/Feb/2025 17:19:58] "GET /api/towns/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:19:58,990 - INFO - 127.0.0.1 - - [04/Feb/2025 17:19:58] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:19:59,041 - INFO - 127.0.0.1 - - [04/Feb/2025 17:19:59] "GET /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:20:02,812 - INFO - Received logout request for user: ethanjwaggoner@gmail.com
+2025-02-04 17:20:02,813 - INFO - User logged out successfully: email: ethanjwaggoner@gmail.com
+2025-02-04 17:20:02,813 - INFO - Logout response: 200
+2025-02-04 17:20:02,814 - INFO - 127.0.0.1 - - [04/Feb/2025 17:20:02] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-04 17:20:18,928 - INFO - 127.0.0.1 - - [04/Feb/2025 17:20:18] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:20:18,946 - INFO - Received login request for email: ethanjwaggoner@gmail.com from IP: 127.0.0.1
+2025-02-04 17:20:19,028 - INFO - User logged in successfully: email: ethanjwaggoner@gmail.com, IP: 127.0.0.1
+2025-02-04 17:20:19,029 - INFO - Login successful for email: ethanjwaggoner@gmail.com
+2025-02-04 17:20:19,030 - INFO - 127.0.0.1 - - [04/Feb/2025 17:20:19] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:20:21,198 - INFO - Received request for current user information
+2025-02-04 17:20:21,199 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:20:21,199 - INFO - 127.0.0.1 - - [04/Feb/2025 17:20:21] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:20:21,202 - INFO - 127.0.0.1 - - [04/Feb/2025 17:20:21] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:20:23,359 - INFO - 127.0.0.1 - - [04/Feb/2025 17:20:23] "GET /api/towns/2eedeb16-e531-483f-a39d-3dcea410cc19/ HTTP/1.1" 200 -
+2025-02-04 17:20:23,591 - INFO - 127.0.0.1 - - [04/Feb/2025 17:20:23] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:20:23,686 - INFO - 127.0.0.1 - - [04/Feb/2025 17:20:23] "GET /api/heroes/2eedeb16-e531-483f-a39d-3dcea410cc19/ HTTP/1.1" 200 -
+2025-02-04 17:20:28,477 - INFO - 127.0.0.1 - - [04/Feb/2025 17:20:28] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-04 17:20:31,798 - INFO - 127.0.0.1 - - [04/Feb/2025 17:20:31] "OPTIONS /api/heroes/2eedeb16-e531-483f-a39d-3dcea410cc19/ HTTP/1.1" 200 -
+2025-02-04 17:20:31,899 - INFO - 127.0.0.1 - - [04/Feb/2025 17:20:31] "[35m[1mPOST /api/heroes/2eedeb16-e531-483f-a39d-3dcea410cc19/ HTTP/1.1[0m" 201 -
+2025-02-04 17:20:31,907 - INFO - 127.0.0.1 - - [04/Feb/2025 17:20:31] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:20:31,932 - INFO - 127.0.0.1 - - [04/Feb/2025 17:20:31] "GET /api/heroes/2eedeb16-e531-483f-a39d-3dcea410cc19/ HTTP/1.1" 200 -
+2025-02-04 17:20:33,700 - INFO - Received request for current user information
+2025-02-04 17:20:33,700 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:20:33,701 - INFO - 127.0.0.1 - - [04/Feb/2025 17:20:33] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:20:34,097 - INFO - 127.0.0.1 - - [04/Feb/2025 17:20:34] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:20:34,188 - INFO - 127.0.0.1 - - [04/Feb/2025 17:20:34] "GET /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:22:40,227 - INFO - Received request for current user information
+2025-02-04 17:22:40,228 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:22:40,228 - INFO - 127.0.0.1 - - [04/Feb/2025 17:22:40] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:22:40,488 - INFO - 127.0.0.1 - - [04/Feb/2025 17:22:40] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:22:40,599 - INFO - 127.0.0.1 - - [04/Feb/2025 17:22:40] "GET /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:24:27,294 - INFO - Received request for current user information
+2025-02-04 17:24:27,295 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:24:27,295 - INFO - 127.0.0.1 - - [04/Feb/2025 17:24:27] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:24:27,544 - INFO - 127.0.0.1 - - [04/Feb/2025 17:24:27] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:24:27,601 - INFO - 127.0.0.1 - - [04/Feb/2025 17:24:27] "GET /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:24:29,289 - INFO - Received logout request for user: ethanjwaggoner@gmail.com
+2025-02-04 17:24:29,290 - INFO - User logged out successfully: email: ethanjwaggoner@gmail.com
+2025-02-04 17:24:29,290 - INFO - Logout response: 200
+2025-02-04 17:24:29,291 - INFO - 127.0.0.1 - - [04/Feb/2025 17:24:29] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-04 17:24:43,102 - INFO - 127.0.0.1 - - [04/Feb/2025 17:24:43] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:24:43,111 - INFO - Received login request for email: ethanjwaggoner@gmail.com from IP: 127.0.0.1
+2025-02-04 17:24:43,195 - INFO - User logged in successfully: email: ethanjwaggoner@gmail.com, IP: 127.0.0.1
+2025-02-04 17:24:43,196 - INFO - Login successful for email: ethanjwaggoner@gmail.com
+2025-02-04 17:24:43,197 - INFO - 127.0.0.1 - - [04/Feb/2025 17:24:43] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:24:45,294 - INFO - Received request for current user information
+2025-02-04 17:24:45,295 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:24:45,296 - INFO - 127.0.0.1 - - [04/Feb/2025 17:24:45] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:24:45,303 - INFO - 127.0.0.1 - - [04/Feb/2025 17:24:45] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:24:47,303 - INFO - 127.0.0.1 - - [04/Feb/2025 17:24:47] "GET /api/towns/2eedeb16-e531-483f-a39d-3dcea410cc19/ HTTP/1.1" 200 -
+2025-02-04 17:24:47,513 - INFO - 127.0.0.1 - - [04/Feb/2025 17:24:47] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:24:47,580 - INFO - 127.0.0.1 - - [04/Feb/2025 17:24:47] "GET /api/heroes/2eedeb16-e531-483f-a39d-3dcea410cc19/ HTTP/1.1" 200 -
+2025-02-04 17:24:50,132 - INFO - Received request for current user information
+2025-02-04 17:24:50,132 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:24:50,133 - INFO - 127.0.0.1 - - [04/Feb/2025 17:24:50] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:24:50,377 - INFO - 127.0.0.1 - - [04/Feb/2025 17:24:50] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:24:50,427 - INFO - 127.0.0.1 - - [04/Feb/2025 17:24:50] "GET /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:28:44,587 - INFO - 127.0.0.1 - - [04/Feb/2025 17:28:44] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:28:44,631 - INFO - 127.0.0.1 - - [04/Feb/2025 17:28:44] "GET /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:30:28,998 - INFO - 127.0.0.1 - - [04/Feb/2025 17:30:28] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:30:29,038 - INFO - 127.0.0.1 - - [04/Feb/2025 17:30:29] "GET /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:30:43,065 - INFO - 127.0.0.1 - - [04/Feb/2025 17:30:43] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:30:43,112 - INFO - 127.0.0.1 - - [04/Feb/2025 17:30:43] "GET /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:30:57,906 - INFO - Received logout request for user: ethanjwaggoner@gmail.com
+2025-02-04 17:30:57,907 - INFO - User logged out successfully: email: ethanjwaggoner@gmail.com
+2025-02-04 17:30:57,907 - INFO - Logout response: 200
+2025-02-04 17:30:57,908 - INFO - 127.0.0.1 - - [04/Feb/2025 17:30:57] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-04 17:30:59,973 - INFO - 127.0.0.1 - - [04/Feb/2025 17:30:59] "[31m[1mGET /api/towns/ HTTP/1.1[0m" 401 -
+2025-02-04 17:31:00,053 - INFO - 127.0.0.1 - - [04/Feb/2025 17:31:00] "[31m[1mGET /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1[0m" 401 -
+2025-02-04 17:32:32,006 - INFO - 127.0.0.1 - - [04/Feb/2025 17:32:32] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:32:32,011 - INFO - Received login request for email: ethanjwaggoner@gmail.com from IP: 127.0.0.1
+2025-02-04 17:32:32,093 - INFO - User logged in successfully: email: ethanjwaggoner@gmail.com, IP: 127.0.0.1
+2025-02-04 17:32:32,094 - INFO - Login successful for email: ethanjwaggoner@gmail.com
+2025-02-04 17:32:32,095 - INFO - 127.0.0.1 - - [04/Feb/2025 17:32:32] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:32:34,201 - INFO - Received request for current user information
+2025-02-04 17:32:34,201 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:32:34,201 - INFO - 127.0.0.1 - - [04/Feb/2025 17:32:34] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:32:34,208 - INFO - 127.0.0.1 - - [04/Feb/2025 17:32:34] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:32:39,694 - INFO - 127.0.0.1 - - [04/Feb/2025 17:32:39] "GET /api/towns/2eedeb16-e531-483f-a39d-3dcea410cc19/ HTTP/1.1" 200 -
+2025-02-04 17:32:42,079 - INFO - 127.0.0.1 - - [04/Feb/2025 17:32:42] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:32:42,156 - INFO - 127.0.0.1 - - [04/Feb/2025 17:32:42] "GET /api/heroes/2eedeb16-e531-483f-a39d-3dcea410cc19/ HTTP/1.1" 200 -
+2025-02-04 17:32:45,453 - INFO - Received request for current user information
+2025-02-04 17:32:45,453 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:32:45,454 - INFO - 127.0.0.1 - - [04/Feb/2025 17:32:45] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:32:45,730 - INFO - 127.0.0.1 - - [04/Feb/2025 17:32:45] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:32:45,782 - INFO - 127.0.0.1 - - [04/Feb/2025 17:32:45] "GET /api/heroes/2eedeb16-e531-483f-a39d-3dcea410cc19/ HTTP/1.1" 200 -
+2025-02-04 17:32:46,758 - INFO - Received request for current user information
+2025-02-04 17:32:46,758 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:32:46,759 - INFO - 127.0.0.1 - - [04/Feb/2025 17:32:46] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:32:47,076 - INFO - 127.0.0.1 - - [04/Feb/2025 17:32:47] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:32:47,245 - INFO - 127.0.0.1 - - [04/Feb/2025 17:32:47] "GET /api/heroes/2eedeb16-e531-483f-a39d-3dcea410cc19/ HTTP/1.1" 200 -
+2025-02-04 17:32:53,814 - INFO - Received logout request for user: ethanjwaggoner@gmail.com
+2025-02-04 17:32:53,814 - INFO - User logged out successfully: email: ethanjwaggoner@gmail.com
+2025-02-04 17:32:53,814 - INFO - Logout response: 200
+2025-02-04 17:32:53,815 - INFO - 127.0.0.1 - - [04/Feb/2025 17:32:53] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-04 17:33:10,563 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:10] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:33:10,570 - INFO - Received login request for email: ethanjwaggoner@gmail.com from IP: 127.0.0.1
+2025-02-04 17:33:10,654 - INFO - User logged in successfully: email: ethanjwaggoner@gmail.com, IP: 127.0.0.1
+2025-02-04 17:33:10,655 - INFO - Login successful for email: ethanjwaggoner@gmail.com
+2025-02-04 17:33:10,656 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:10] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:33:12,767 - INFO - Received request for current user information
+2025-02-04 17:33:12,767 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:33:12,768 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:12] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:33:12,772 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:12] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:33:14,698 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:14] "GET /api/towns/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:33:14,904 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:14] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:33:14,993 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:14] "GET /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:33:16,558 - INFO - Received request for current user information
+2025-02-04 17:33:16,558 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:33:16,560 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:16] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:33:16,810 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:16] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:33:16,870 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:16] "GET /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:33:21,751 - INFO - Received logout request for user: ethanjwaggoner@gmail.com
+2025-02-04 17:33:21,752 - INFO - User logged out successfully: email: ethanjwaggoner@gmail.com
+2025-02-04 17:33:21,752 - INFO - Logout response: 200
+2025-02-04 17:33:21,753 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:21] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-04 17:33:37,697 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:37] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:33:37,705 - INFO - Received login request for email: ethanjwaggoner@gmail.com from IP: 127.0.0.1
+2025-02-04 17:33:37,799 - INFO - User logged in successfully: email: ethanjwaggoner@gmail.com, IP: 127.0.0.1
+2025-02-04 17:33:37,800 - INFO - Login successful for email: ethanjwaggoner@gmail.com
+2025-02-04 17:33:37,801 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:37] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:33:39,947 - INFO - Received request for current user information
+2025-02-04 17:33:39,948 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:33:39,949 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:39] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:33:39,953 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:39] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:33:44,854 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:44] "OPTIONS /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:33:44,888 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:44] "[35m[1mPOST /api/towns/ HTTP/1.1[0m" 201 -
+2025-02-04 17:33:45,017 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:45] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-04 17:33:48,812 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:48] "OPTIONS /api/heroes/9ee68b3b-4645-4eb4-91e2-3c0b68e263f8/ HTTP/1.1" 200 -
+2025-02-04 17:33:48,841 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:48] "[35m[1mPOST /api/heroes/9ee68b3b-4645-4eb4-91e2-3c0b68e263f8/ HTTP/1.1[0m" 201 -
+2025-02-04 17:33:49,027 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:49] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:33:49,073 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:49] "GET /api/heroes/9ee68b3b-4645-4eb4-91e2-3c0b68e263f8/ HTTP/1.1" 200 -
+2025-02-04 17:33:50,837 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:50] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-04 17:33:55,724 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:55] "OPTIONS /api/heroes/9ee68b3b-4645-4eb4-91e2-3c0b68e263f8/ HTTP/1.1" 200 -
+2025-02-04 17:33:55,792 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:55] "[35m[1mPOST /api/heroes/9ee68b3b-4645-4eb4-91e2-3c0b68e263f8/ HTTP/1.1[0m" 201 -
+2025-02-04 17:33:55,804 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:55] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:33:55,841 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:55] "GET /api/heroes/9ee68b3b-4645-4eb4-91e2-3c0b68e263f8/ HTTP/1.1" 200 -
+2025-02-04 17:33:59,987 - INFO - Received request for current user information
+2025-02-04 17:33:59,987 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:33:59,988 - INFO - 127.0.0.1 - - [04/Feb/2025 17:33:59] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:34:00,288 - INFO - 127.0.0.1 - - [04/Feb/2025 17:34:00] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:34:00,435 - INFO - 127.0.0.1 - - [04/Feb/2025 17:34:00] "GET /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:34:13,050 - INFO - Received request for current user information
+2025-02-04 17:34:13,051 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:34:13,052 - INFO - 127.0.0.1 - - [04/Feb/2025 17:34:13] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:34:13,272 - INFO - 127.0.0.1 - - [04/Feb/2025 17:34:13] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:34:13,304 - INFO - 127.0.0.1 - - [04/Feb/2025 17:34:13] "GET /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:36:22,618 - INFO - 127.0.0.1 - - [04/Feb/2025 17:36:22] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:36:22,669 - INFO - 127.0.0.1 - - [04/Feb/2025 17:36:22] "GET /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:36:37,510 - INFO - Received request for current user information
+2025-02-04 17:36:37,511 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:36:37,511 - INFO - 127.0.0.1 - - [04/Feb/2025 17:36:37] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:36:37,945 - INFO - 127.0.0.1 - - [04/Feb/2025 17:36:37] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:36:38,051 - INFO - 127.0.0.1 - - [04/Feb/2025 17:36:38] "GET /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:36:39,580 - INFO - Received logout request for user: ethanjwaggoner@gmail.com
+2025-02-04 17:36:39,581 - INFO - User logged out successfully: email: ethanjwaggoner@gmail.com
+2025-02-04 17:36:39,581 - INFO - Logout response: 200
+2025-02-04 17:36:39,582 - INFO - 127.0.0.1 - - [04/Feb/2025 17:36:39] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-04 17:37:04,131 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:04] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:37:04,138 - INFO - Received login request for email: ethanjwaggoner@gmail.com from IP: 127.0.0.1
+2025-02-04 17:37:04,222 - INFO - User logged in successfully: email: ethanjwaggoner@gmail.com, IP: 127.0.0.1
+2025-02-04 17:37:04,223 - INFO - Login successful for email: ethanjwaggoner@gmail.com
+2025-02-04 17:37:04,224 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:04] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:37:06,346 - INFO - Received request for current user information
+2025-02-04 17:37:06,346 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:37:06,347 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:06] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:37:06,356 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:06] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:37:11,310 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:11] "OPTIONS /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:37:11,334 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:11] "[35m[1mPOST /api/towns/ HTTP/1.1[0m" 201 -
+2025-02-04 17:37:11,496 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:11] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-04 17:37:19,277 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:19] "OPTIONS /api/heroes/2626bdea-6d1c-4973-b048-1a95a2305810/ HTTP/1.1" 200 -
+2025-02-04 17:37:19,306 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:19] "[35m[1mPOST /api/heroes/2626bdea-6d1c-4973-b048-1a95a2305810/ HTTP/1.1[0m" 201 -
+2025-02-04 17:37:19,503 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:19] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:37:19,546 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:19] "GET /api/heroes/2626bdea-6d1c-4973-b048-1a95a2305810/ HTTP/1.1" 200 -
+2025-02-04 17:37:21,530 - INFO - Received request for current user information
+2025-02-04 17:37:21,531 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:37:21,531 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:21] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:37:22,008 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:22] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:37:22,061 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:22] "GET /api/heroes/2626bdea-6d1c-4973-b048-1a95a2305810/ HTTP/1.1" 200 -
+2025-02-04 17:37:24,132 - INFO - Received request for current user information
+2025-02-04 17:37:24,132 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:37:24,133 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:24] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:37:24,800 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:24] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:37:25,031 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:25] "GET /api/heroes/2626bdea-6d1c-4973-b048-1a95a2305810/ HTTP/1.1" 200 -
+2025-02-04 17:37:29,376 - INFO - Received logout request for user: ethanjwaggoner@gmail.com
+2025-02-04 17:37:29,377 - INFO - User logged out successfully: email: ethanjwaggoner@gmail.com
+2025-02-04 17:37:29,377 - INFO - Logout response: 200
+2025-02-04 17:37:29,378 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:29] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-04 17:37:42,553 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:42] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:37:42,561 - INFO - Received login request for email: ethanjwaggoner@gmail.com from IP: 127.0.0.1
+2025-02-04 17:37:42,639 - INFO - User logged in successfully: email: ethanjwaggoner@gmail.com, IP: 127.0.0.1
+2025-02-04 17:37:42,640 - INFO - Login successful for email: ethanjwaggoner@gmail.com
+2025-02-04 17:37:42,641 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:42] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 17:37:44,758 - INFO - Received request for current user information
+2025-02-04 17:37:44,759 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:37:44,761 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:44] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:37:44,766 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:44] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:37:50,144 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:50] "GET /api/towns/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:37:52,330 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:52] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:37:52,359 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:52] "GET /api/heroes/15d86b92-6c1d-44f6-bfff-3d747a625e5c/ HTTP/1.1" 200 -
+2025-02-04 17:37:55,093 - INFO - Received request for current user information
+2025-02-04 17:37:55,094 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:37:55,095 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:55] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:37:55,098 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:55] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:37:55,897 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:55] "GET /api/towns/a7c38d01-bca8-4d3e-9044-147a72cda54e/ HTTP/1.1" 200 -
+2025-02-04 17:37:55,956 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:55] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:37:55,976 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:55] "GET /api/heroes/a7c38d01-bca8-4d3e-9044-147a72cda54e/ HTTP/1.1" 200 -
+2025-02-04 17:37:57,288 - INFO - Received request for current user information
+2025-02-04 17:37:57,289 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:37:57,289 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:57] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:37:57,295 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:57] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:37:57,963 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:57] "GET /api/towns/2eedeb16-e531-483f-a39d-3dcea410cc19/ HTTP/1.1" 200 -
+2025-02-04 17:37:58,020 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:58] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 17:37:58,042 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:58] "GET /api/heroes/2eedeb16-e531-483f-a39d-3dcea410cc19/ HTTP/1.1" 200 -
+2025-02-04 17:37:59,768 - INFO - Received request for current user information
+2025-02-04 17:37:59,769 - INFO - Retrieved current user information for user: ethanjwaggoner@gmail.com
+2025-02-04 17:37:59,770 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:59] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 17:37:59,775 - INFO - 127.0.0.1 - - [04/Feb/2025 17:37:59] "GET /api/towns/ HTTP/1.1" 200 -

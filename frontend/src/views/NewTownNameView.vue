@@ -8,7 +8,6 @@ import { useHeroStore } from "@/stores/HeroStore.js";
 
 const townStore = useTownStore()
 const userStore = useUserStore()
-const heroStore = useHeroStore()
 
 const showCreateModal = ref(false)
 const newTownName = ref('')
@@ -24,10 +23,10 @@ const townSlots = computed(() => {
   return slots
 })
 
-function handleSlotClick(index) {
+async function handleSlotClick(index) {
   const slot = townSlots.value[index]
   if (slot) {
-    loadTown(slot)
+    await loadTown(slot)
   } else {
     selectedSlotIndex.value = index
     showCreateModal.value = true
@@ -37,7 +36,6 @@ function handleSlotClick(index) {
 async function loadTown(town) {
   try {
     await townStore.selectTown(town.uuid)
-    await heroStore.setCurrentTownUuid(town.uuid)
     if (!town.id) {
       await router.push('/choose-hero')
     } else {
@@ -48,16 +46,16 @@ async function loadTown(town) {
   }
 }
 
-async function createTown() {
+function createTown() {
   if (!newTownName.value) {
     alert("Please enter a town name.")
     return
   }
   try {
-    await townStore.createTown({ name: newTownName.value })
+    townStore.createTown({ name: newTownName.value })
     newTownName.value = ''
     showCreateModal.value = false
-    await router.push('/choose-hero')
+    router.push('/choose-hero')
   } catch (error) {
     console.error('Error creating town:', error)
   }

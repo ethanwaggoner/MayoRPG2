@@ -19,9 +19,15 @@ const router = useRouter();
 const heroes1 = computed(() => heroStore.HeroGroup1);
 const heroes2 = computed(() => heroStore.HeroGroup2);
 
-onMounted(() => {
-  heroStore.loadHeroData(heroStore.currentTownUuid);
+onMounted(async () => {
+  await townStore.loadTowns();
+  if (townStore.currentTown) {
+    await heroStore.loadHeroData(townStore.currentTown.uuid);
+  } else {
+    console.error("No current town available");
+  }
 });
+
 </script>
 
 <template>
