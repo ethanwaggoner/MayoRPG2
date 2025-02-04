@@ -9,7 +9,7 @@ class Config(object):
 
     basedir = os.path.abspath(os.path.dirname(__file__))
 
-    SECRET_KEY = os.getenv('SECRET_KEY', "hfuidshf7843tyf87t43f743ft34tf34tf3ffyf74f7y34yf")
+    SECRET_KEY = os.getenv('SECRET_KEY')
 
     OAUTHLIB_RELAX_TOKEN_SCOPE = True
 

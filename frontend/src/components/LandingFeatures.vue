@@ -13,7 +13,7 @@ export default {
           icon: CraftingIcon,
           title: 'Incremental Gameplay',
           description:
-            "Progress even when you're away. Let your heroes grow and conquer while you take a break.",
+            "Improve your heroes over time, taking on bigger challenges and topping the leaderboards!",
         },
         {
           id: 2,
@@ -29,7 +29,6 @@ export default {
           description:
             'Immerse yourself in a rich character build making, where every decision has an effect.',
         },
-        // Add more features as needed
       ],
     };
   },

@@ -1195,3 +1195,13 @@ AttributeError: 'AnonymousUserMixin' object has no attribute 'email'
 2025-02-04 17:44:27,928 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 2025-02-04 17:44:27,928 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-04 18:13:42,885 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-04 18:13:42,885 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-04 18:13:45,009 - INFO - 127.0.0.1 - - [04/Feb/2025 18:13:45] "GET / HTTP/1.1" 200 -
+2025-02-04 18:13:45,164 - INFO - 127.0.0.1 - - [04/Feb/2025 18:13:45] "GET /swaggerui/droid-sans.css HTTP/1.1" 200 -
+2025-02-04 18:13:45,418 - INFO - 127.0.0.1 - - [04/Feb/2025 18:13:45] "GET /swaggerui/swagger-ui.css HTTP/1.1" 200 -
+2025-02-04 18:13:46,025 - INFO - 127.0.0.1 - - [04/Feb/2025 18:13:46] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-02-04 18:13:47,128 - INFO - 127.0.0.1 - - [04/Feb/2025 18:13:47] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-02-04 18:13:47,238 - INFO - 127.0.0.1 - - [04/Feb/2025 18:13:47] "GET /swaggerui/favicon-16x16.png HTTP/1.1" 200 -
+2025-02-04 18:13:47,260 - INFO - 127.0.0.1 - - [04/Feb/2025 18:13:47] "GET /api/swagger.json HTTP/1.1" 200 -
