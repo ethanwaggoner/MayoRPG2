@@ -34,7 +34,7 @@ export default {
       <p ref="description" class="hero-description">
         Embark on an epic pixelated adventure.
       </p>
-      <router-link to="/sign-up">
+      <router-link to="/login">
         <button ref="button" class="play-now-button">
           Play Now
         </button>
