@@ -3,14 +3,14 @@ from flask_restx import fields, Namespace
 auth = Namespace('auth', description='Authentication operations')
 
 signup_model = auth.model('Signup', {
-    'email': fields.String(required=True, description='User email'),
-    'username': fields.String(required=True, description='Username'),
-    'password': fields.String(required=True, description='Password'),
+    'email': fields.String(required=True, description='User email', pattern=r'^[\w\.-]+@[\w\.-]+\.\w+$', min_length=5, max_length=255),
+    'username': fields.String(required=True, description='Username', min_length=3, max_length=50),
+    'password': fields.String(required=True, description='Password', min_length=8, max_length=128),
 })
 
 login_model = auth.model('Login', {
-    'email': fields.String(required=True, description='User email'),
-    'password': fields.String(required=True, description='Password'),
+    'email': fields.String(required=True, description='User email', pattern=r'^[\w\.-]+@[\w\.-]+\.\w+$', min_length=5, max_length=255),
+    'password': fields.String(required=True, description='Password', min_length=8, max_length=128),
 })
 
 user_model = auth.model('User', {

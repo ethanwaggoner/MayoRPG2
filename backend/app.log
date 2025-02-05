@@ -1205,3 +1205,66 @@ AttributeError: 'AnonymousUserMixin' object has no attribute 'email'
 2025-02-04 18:13:47,128 - INFO - 127.0.0.1 - - [04/Feb/2025 18:13:47] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
 2025-02-04 18:13:47,238 - INFO - 127.0.0.1 - - [04/Feb/2025 18:13:47] "GET /swaggerui/favicon-16x16.png HTTP/1.1" 200 -
 2025-02-04 18:13:47,260 - INFO - 127.0.0.1 - - [04/Feb/2025 18:13:47] "GET /api/swagger.json HTTP/1.1" 200 -
+2025-02-04 18:34:49,635 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-04 18:34:49,636 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-04 18:35:07,596 - INFO - 127.0.0.1 - - [04/Feb/2025 18:35:07] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 18:35:07,605 - INFO - Received login request for email: thetoasthobo@gmail.com from IP: 127.0.0.1
+2025-02-04 18:35:07,703 - INFO - User logged in successfully: email: thetoasthobo@gmail.com, IP: 127.0.0.1
+2025-02-04 18:35:07,707 - INFO - Login successful for email: thetoasthobo@gmail.com
+2025-02-04 18:35:07,708 - INFO - 127.0.0.1 - - [04/Feb/2025 18:35:07] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 18:35:09,831 - INFO - Received request for current user information
+2025-02-04 18:35:09,831 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-04 18:35:09,832 - INFO - 127.0.0.1 - - [04/Feb/2025 18:35:09] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 18:35:09,851 - INFO - 127.0.0.1 - - [04/Feb/2025 18:35:09] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 18:35:14,886 - INFO - 127.0.0.1 - - [04/Feb/2025 18:35:14] "OPTIONS /api/towns/fdc88acb-f886-4a13-b4d9-a32fddfd07a4/ HTTP/1.1" 200 -
+2025-02-04 18:35:14,902 - INFO - 127.0.0.1 - - [04/Feb/2025 18:35:14] "DELETE /api/towns/fdc88acb-f886-4a13-b4d9-a32fddfd07a4/ HTTP/1.1" 200 -
+2025-02-04 18:35:19,479 - INFO - 127.0.0.1 - - [04/Feb/2025 18:35:19] "GET /api/towns/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-04 18:35:21,755 - INFO - 127.0.0.1 - - [04/Feb/2025 18:35:21] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 18:35:21,889 - INFO - 127.0.0.1 - - [04/Feb/2025 18:35:21] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-04 18:35:35,933 - INFO - Received logout request for user: thetoasthobo@gmail.com
+2025-02-04 18:35:35,933 - INFO - User logged out successfully: email: thetoasthobo@gmail.com
+2025-02-04 18:35:35,933 - INFO - Logout response: 200
+2025-02-04 18:35:35,935 - INFO - 127.0.0.1 - - [04/Feb/2025 18:35:35] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-04 19:53:16,525 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-04 19:53:16,527 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-04 19:53:36,179 - INFO - 127.0.0.1 - - [04/Feb/2025 19:53:36] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 19:53:58,886 - INFO - 127.0.0.1 - - [04/Feb/2025 19:53:58] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 19:53:58,890 - INFO - Received login request for email: thetoasthobo@gmail.com from IP: 127.0.0.1
+2025-02-04 19:53:58,989 - INFO - User logged in successfully: email: thetoasthobo@gmail.com, IP: 127.0.0.1
+2025-02-04 19:53:58,992 - INFO - Login successful for email: thetoasthobo@gmail.com
+2025-02-04 19:53:58,993 - INFO - 127.0.0.1 - - [04/Feb/2025 19:53:58] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 19:54:01,105 - INFO - Received request for current user information
+2025-02-04 19:54:01,106 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-04 19:54:01,107 - INFO - 127.0.0.1 - - [04/Feb/2025 19:54:01] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 19:54:01,117 - INFO - 127.0.0.1 - - [04/Feb/2025 19:54:01] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 19:54:03,592 - INFO - 127.0.0.1 - - [04/Feb/2025 19:54:03] "GET /api/towns/8d8751b9-61e9-497f-854b-d50db8a05caf/ HTTP/1.1" 200 -
+2025-02-04 19:54:03,720 - INFO - 127.0.0.1 - - [04/Feb/2025 19:54:03] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 19:54:03,758 - INFO - 127.0.0.1 - - [04/Feb/2025 19:54:03] "GET /api/heroes/8d8751b9-61e9-497f-854b-d50db8a05caf/ HTTP/1.1" 200 -
+2025-02-04 19:54:10,696 - INFO - Received logout request for user: thetoasthobo@gmail.com
+2025-02-04 19:54:10,697 - INFO - User logged out successfully: email: thetoasthobo@gmail.com
+2025-02-04 19:54:10,697 - INFO - Logout response: 200
+2025-02-04 19:54:10,698 - INFO - 127.0.0.1 - - [04/Feb/2025 19:54:10] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-04 19:54:27,468 - INFO - 127.0.0.1 - - [04/Feb/2025 19:54:27] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-04 19:54:27,472 - INFO - Received login request for email: thetoasthobo@gmail.com from IP: 127.0.0.1
+2025-02-04 19:54:27,557 - INFO - User logged in successfully: email: thetoasthobo@gmail.com, IP: 127.0.0.1
+2025-02-04 19:54:27,558 - INFO - Login successful for email: thetoasthobo@gmail.com
+2025-02-04 19:54:27,559 - INFO - 127.0.0.1 - - [04/Feb/2025 19:54:27] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-04 19:54:29,663 - INFO - Received request for current user information
+2025-02-04 19:54:29,665 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-04 19:54:29,667 - INFO - 127.0.0.1 - - [04/Feb/2025 19:54:29] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 19:54:29,670 - INFO - 127.0.0.1 - - [04/Feb/2025 19:54:29] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 19:54:31,532 - INFO - 127.0.0.1 - - [04/Feb/2025 19:54:31] "GET /api/towns/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-04 19:54:31,657 - INFO - 127.0.0.1 - - [04/Feb/2025 19:54:31] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 19:54:31,676 - INFO - 127.0.0.1 - - [04/Feb/2025 19:54:31] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-04 19:54:33,995 - INFO - 127.0.0.1 - - [04/Feb/2025 19:54:33] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-04 19:54:36,534 - INFO - 127.0.0.1 - - [04/Feb/2025 19:54:36] "OPTIONS /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-04 19:54:36,556 - INFO - 127.0.0.1 - - [04/Feb/2025 19:54:36] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 19:54:36,606 - INFO - 127.0.0.1 - - [04/Feb/2025 19:54:36] "[35m[1mPOST /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1[0m" 201 -
+2025-02-04 19:54:36,616 - INFO - 127.0.0.1 - - [04/Feb/2025 19:54:36] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-04 19:55:40,359 - INFO - Received request for current user information
+2025-02-04 19:55:40,359 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-04 19:55:40,360 - INFO - 127.0.0.1 - - [04/Feb/2025 19:55:40] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-04 19:55:40,507 - INFO - 127.0.0.1 - - [04/Feb/2025 19:55:40] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-04 19:55:40,531 - INFO - 127.0.0.1 - - [04/Feb/2025 19:55:40] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
