@@ -84,5 +84,6 @@ onMounted(async () => {
   padding: 10px;
   font-family: 'Press Start 2P', cursive;
   color: #dac9a6;
+  scale: .95;
 }
 </style>

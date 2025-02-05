@@ -20,7 +20,7 @@
   cursor: pointer;
 }
 
-.battle-image {
+.battle-image, .battle-text {
   animation: breathe 2s ease-in-out infinite;
 }
 
@@ -44,6 +44,6 @@
 .battle-text {
   font-size: 1em;
   color: #dac9a6;
-  margin-bottom: 50px;
+  margin-bottom: 6rem;
 }
 </style>

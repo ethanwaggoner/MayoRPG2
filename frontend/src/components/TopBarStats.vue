@@ -5,10 +5,10 @@ import resource3 from '@/assets/items/tile631.png';
 import resource4 from '@/assets/items/tile721.png';
 
 const fractions = [
-  {numerator: 80, denominator: 99, image: resource1},
-  {numerator: 112, denominator: 5476, image: resource2},
-  {numerator: 56, denominator: 789, image: resource3},
-  {numerator: 44, denominator: 55, image: resource4}
+  {numerator: 0, denominator: 999, image: resource1},
+  {numerator: 0, denominator: 999, image: resource2},
+  {numerator: 0, denominator: 999, image: resource3},
+  {numerator: 0, denominator: 999, image: resource4}
 ];
 </script>
 
@@ -30,6 +30,7 @@ const fractions = [
   justify-content: space-around;
   align-items: center;
   padding: 10px 0;
+  margin-bottom: 1rem;
   border: 2px solid #c2a368;
   border-radius: 10px;
   background: rgba(36, 21, 11, 0.8);
