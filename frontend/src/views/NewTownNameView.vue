@@ -3,8 +3,6 @@ import { ref, computed, onMounted } from 'vue'
 import router from '@/router.js'
 import { useTownStore } from '@/stores/TownStore.js'
 import { useUserStore } from '@/stores/UserStore.js'
-import StartHeroSpawner from '@/components/StartHeroSpawner.vue'
-import { useHeroStore } from "@/stores/HeroStore.js"
 
 const townStore = useTownStore()
 const userStore = useUserStore()
@@ -62,7 +60,7 @@ function createTown() {
     return
   }
   try {
-    townStore.createTown({ name: newTownName.value })
+    townStore.createTown({name: newTownName.value})
     newTownName.value = ''
     showCreateModal.value = false
     router.push('/choose-hero')
@@ -78,7 +76,7 @@ function cancelCreation() {
 
 function formatDate(dateString) {
   if (!dateString) return 'Unknown'
-  const options = { year: 'numeric', month: 'short', day: 'numeric' }
+  const options = {year: 'numeric', month: 'short', day: 'numeric'}
   return new Date(dateString).toLocaleDateString(undefined, options)
 }
 
@@ -92,46 +90,64 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="town-manager-container">
-    <div class="save-slots">
-      <h2 class="sidebar-title">Your Town Saves {{ username }}</h2>
-      <div class="slots-grid">
-        <div
-          v-for="(slot, index) in townSlots"
-          :key="index"
-          class="save-slot"
-          @click="slot && handleSlotClick(index)"
-        >
-          <div v-if="slot" class="slot-content">
-            <div class="town-info">
-              <h3 class="town-name">{{ slot.name }}</h3>
-              <p class="town-date">Created: {{ formatDate(slot.created_at) }}</p>
-              <p class="town-info-detail">Level {{ slot.level || '1' }}</p>
+  <div class="outer-wrapper">
+    <div class="town-manager-container">
+      <div class="save-slots">
+        <h2 class="sidebar-title">Your Town Saves {{ username }}</h2>
+        <div class="slots-grid">
+          <div
+              v-for="(slot, index) in townSlots"
+              :key="index"
+              class="save-slot"
+              @click="slot && handleSlotClick(index)"
+          >
+            <div v-if="slot" class="slot-content">
+              <div class="town-info">
+                <h3 class="town-name">{{ slot.name }}</h3>
+                <p class="town-date">Created: {{ formatDate(slot.created_at) }}</p>
+                <div class="town-level-heroes">
+                  <p class="town-info-detail">
+                    Level {{ slot.level || 1 }}
+                  </p>
+                  <div class="hero-thumbs">
+                    <div
+                        v-for="hero in slot.heroes || []"
+                        :key="hero.id"
+                        class="hero-thumb"
+                    >
+                      <img
+                          :src="hero.image"
+                          :alt="hero.name"
+                          class="hero-thumb-img"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="delete-button" @click.stop="deleteTown(slot.uuid)">
+                Delete
+              </button>
             </div>
-            <button class="delete-button" @click.stop="deleteTown(slot.uuid)">
-              Delete
-            </button>
-          </div>
-          <div v-else class="empty-slot" @click="handleSlotClick(index)">
-            <p>Empty Save Slot</p>
-            <p class="create-prompt">Click to create a new town</p>
+            <div v-else class="empty-slot" @click="handleSlotClick(index)">
+              <p>Empty Save Slot</p>
+              <p class="create-prompt">Click to create a new town</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <StartHeroSpawner />
-    <div v-if="showCreateModal" class="modal-overlay">
-      <div class="modal-content">
-        <h2>Create a New Town</h2>
-        <input
-          v-model="newTownName"
-          type="text"
-          placeholder="Enter town name"
-          class="modal-input"
-        />
-        <div class="modal-buttons">
-          <button @click="createTown" class="modal-submit">Create</button>
-          <button @click="cancelCreation" class="modal-cancel">Cancel</button>
+      <div v-if="showCreateModal" class="modal-overlay">
+        <div class="modal-content">
+          <h2>Create a New Town</h2>
+          <input
+              v-model="newTownName"
+              type="text"
+              placeholder="Enter town name"
+              class="modal-input"
+          />
+          <div class="modal-buttons">
+            <button @click="createTown" class="modal-submit">Create</button>
+            <button @click="cancelCreation" class="modal-cancel">Cancel</button>
+          </div>
         </div>
       </div>
     </div>
@@ -139,23 +155,33 @@ onMounted(() => {
 </template>
 
 <style scoped>
+.outer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: none;
+  margin: 0;
+}
+
 .town-manager-container {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  width: 100%;
-  height: 100vh;
-  background: none;
+  flex-direction: column;
+  background: rgba(36, 21, 11, 0.8);
+  border: 2px solid #c2a368;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(194, 163, 104, 0.8);
+  max-width: 700px;
+  width: 90%;
+  padding: 20px;
+  margin: 20px;
 }
 
 .save-slots {
-  width: 30%;
-  max-height: 100vh;
-  padding: 20px;
-  background: rgba(36, 21, 11, 0.8);
-  border-right: 2px solid #c2a368;
+  width: 100%;
+  max-height: 90vh;
   overflow-y: auto;
-  box-shadow: 2px 0 15px rgba(194, 163, 104, 0.3);
+  overflow-x: visible;
 }
 
 .sidebar-title {
@@ -173,6 +199,7 @@ onMounted(() => {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
+  overflow: visible;
 }
 
 .save-slot {
@@ -182,12 +209,14 @@ onMounted(() => {
   padding: 15px;
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  z-index: 100;
 }
 
 .save-slot:hover {
+  position: relative;
   background: rgba(79, 56, 39, 0.85);
-  transform: scale(1.03);
   box-shadow: 0 0 15px rgba(194, 163, 104, 0.6);
+  z-index: 200;
 }
 
 .slot-content {
@@ -216,6 +245,41 @@ onMounted(() => {
   margin: 5px 0;
   color: #dac9a6;
   text-shadow: 1px 1px 2px #000;
+}
+
+.town-level-heroes {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 5px;
+}
+
+.hero-thumbs {
+  display: flex;
+  gap: 8px;
+}
+
+.hero-thumb {
+  padding: 2px;
+  border: 2px solid #c2a368;
+  border-radius: 4px;
+  background: rgba(79, 56, 39, 0.85);
+  box-shadow: 0 0 6px rgba(194, 163, 104, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-thumb:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 12px rgba(194, 163, 104, 0.6);
+}
+
+.hero-thumb-img {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 2px;
+  display: block;
+  pointer-events: none;
 }
 
 .delete-button {
