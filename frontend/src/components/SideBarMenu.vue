@@ -13,18 +13,21 @@ const userStore = useUserStore();
 
 
 const menuItems = [
-  {label: 'Tavern', icon: tavern, route: '/tavern'},
-  {label: 'Mines', icon: mine, route: '/mines'},
-  {label: 'Farms', icon: farms, route: '/farms'},
-  {label: 'Blacksmith', icon: blacksmith, route: '/blacksmith'},
-  {label: 'Alchemist', icon: alchemist, route: '/alchemist'},
+  {label: 'Tavern', icon: tavern, route: '/main-page'},
+  {label: 'Mines', icon: mine, route: '/main-page'},
+  {label: 'Farms', icon: farms, route: '/main-page'},
+  {label: 'Blacksmith', icon: blacksmith, route: '/main-page'},
+  {label: 'Alchemist', icon: alchemist, route: '/main-page'},
   {label: 'Exit', icon: exit, route: '/'}
 ];
 
 const router = useRouter();
 
 function navigate(route) {
-  userStore.logout();
+  if (route === '/') {
+    userStore.logout();
+  }
+
   router.push(route);
 }
 </script>
