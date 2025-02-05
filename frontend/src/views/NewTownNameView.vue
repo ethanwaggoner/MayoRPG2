@@ -171,8 +171,8 @@ onMounted(() => {
   border: 2px solid #c2a368;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(194, 163, 104, 0.8);
-  max-width: 700px;
-  width: 90%;
+  max-width: 750px;
+  width: 100%;
   padding: 20px;
   margin: 20px;
 }
