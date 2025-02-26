@@ -1477,3 +1477,459 @@ AttributeError: 'AnonymousUserMixin' object has no attribute 'email'
 2025-02-05 05:14:48,251 - INFO - 127.0.0.1 - - [05/Feb/2025 05:14:48] "GET /api/auth/current_user HTTP/1.1" 200 -
 2025-02-05 05:14:48,423 - INFO - 127.0.0.1 - - [05/Feb/2025 05:14:48] "GET /api/towns/ HTTP/1.1" 200 -
 2025-02-05 05:14:48,473 - INFO - 127.0.0.1 - - [05/Feb/2025 05:14:48] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 05:16:20,778 - INFO - Received request for current user information
+2025-02-05 05:16:20,778 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 05:16:20,778 - INFO - 127.0.0.1 - - [05/Feb/2025 05:16:20] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 05:16:20,985 - INFO - 127.0.0.1 - - [05/Feb/2025 05:16:20] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 05:16:21,015 - INFO - 127.0.0.1 - - [05/Feb/2025 05:16:21] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 05:16:41,006 - INFO - Received request for current user information
+2025-02-05 05:16:41,006 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 05:16:41,007 - INFO - 127.0.0.1 - - [05/Feb/2025 05:16:41] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 05:16:41,145 - INFO - 127.0.0.1 - - [05/Feb/2025 05:16:41] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 05:16:41,165 - INFO - 127.0.0.1 - - [05/Feb/2025 05:16:41] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 05:16:50,388 - INFO - Received request for current user information
+2025-02-05 05:16:50,388 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 05:16:50,389 - INFO - 127.0.0.1 - - [05/Feb/2025 05:16:50] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 05:16:50,584 - INFO - 127.0.0.1 - - [05/Feb/2025 05:16:50] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 05:16:50,647 - INFO - 127.0.0.1 - - [05/Feb/2025 05:16:50] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 05:17:04,015 - INFO - Received request for current user information
+2025-02-05 05:17:04,016 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 05:17:04,016 - INFO - 127.0.0.1 - - [05/Feb/2025 05:17:04] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 05:17:04,144 - INFO - 127.0.0.1 - - [05/Feb/2025 05:17:04] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 05:17:04,181 - INFO - 127.0.0.1 - - [05/Feb/2025 05:17:04] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 05:17:20,787 - INFO - Received request for current user information
+2025-02-05 05:17:20,787 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 05:17:20,787 - INFO - 127.0.0.1 - - [05/Feb/2025 05:17:20] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 05:17:20,912 - INFO - 127.0.0.1 - - [05/Feb/2025 05:17:20] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 05:17:20,937 - INFO - 127.0.0.1 - - [05/Feb/2025 05:17:20] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 05:18:14,316 - INFO - Received request for current user information
+2025-02-05 05:18:14,316 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 05:18:14,317 - INFO - 127.0.0.1 - - [05/Feb/2025 05:18:14] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 05:18:14,495 - INFO - 127.0.0.1 - - [05/Feb/2025 05:18:14] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 05:18:14,518 - INFO - 127.0.0.1 - - [05/Feb/2025 05:18:14] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 05:18:53,818 - INFO - Received request for current user information
+2025-02-05 05:18:53,818 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 05:18:53,819 - INFO - 127.0.0.1 - - [05/Feb/2025 05:18:53] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 05:18:53,967 - INFO - 127.0.0.1 - - [05/Feb/2025 05:18:53] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 05:18:53,997 - INFO - 127.0.0.1 - - [05/Feb/2025 05:18:53] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 05:20:31,677 - INFO - Received request for current user information
+2025-02-05 05:20:31,678 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 05:20:31,678 - INFO - 127.0.0.1 - - [05/Feb/2025 05:20:31] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 05:20:31,813 - INFO - 127.0.0.1 - - [05/Feb/2025 05:20:31] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 05:20:31,839 - INFO - 127.0.0.1 - - [05/Feb/2025 05:20:31] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 05:20:42,111 - INFO - Received request for current user information
+2025-02-05 05:20:42,111 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 05:20:42,112 - INFO - 127.0.0.1 - - [05/Feb/2025 05:20:42] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 05:20:42,279 - INFO - 127.0.0.1 - - [05/Feb/2025 05:20:42] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 05:20:42,310 - INFO - 127.0.0.1 - - [05/Feb/2025 05:20:42] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 05:21:02,371 - INFO - Received request for current user information
+2025-02-05 05:21:02,372 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 05:21:02,372 - INFO - 127.0.0.1 - - [05/Feb/2025 05:21:02] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 05:21:02,506 - INFO - 127.0.0.1 - - [05/Feb/2025 05:21:02] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 05:21:02,538 - INFO - 127.0.0.1 - - [05/Feb/2025 05:21:02] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 05:21:15,995 - INFO - Received request for current user information
+2025-02-05 05:21:15,995 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 05:21:15,996 - INFO - 127.0.0.1 - - [05/Feb/2025 05:21:15] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 05:21:16,135 - INFO - 127.0.0.1 - - [05/Feb/2025 05:21:16] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 05:21:16,166 - INFO - 127.0.0.1 - - [05/Feb/2025 05:21:16] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 05:21:46,995 - INFO - Received request for current user information
+2025-02-05 05:21:46,995 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 05:21:46,995 - INFO - 127.0.0.1 - - [05/Feb/2025 05:21:46] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 05:21:47,188 - INFO - 127.0.0.1 - - [05/Feb/2025 05:21:47] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 05:21:47,232 - INFO - 127.0.0.1 - - [05/Feb/2025 05:21:47] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 05:22:03,955 - INFO - Received request for current user information
+2025-02-05 05:22:03,955 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 05:22:03,956 - INFO - 127.0.0.1 - - [05/Feb/2025 05:22:03] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 05:22:04,121 - INFO - 127.0.0.1 - - [05/Feb/2025 05:22:04] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 05:22:04,154 - INFO - 127.0.0.1 - - [05/Feb/2025 05:22:04] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 05:22:15,823 - INFO - Received request for current user information
+2025-02-05 05:22:15,823 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 05:22:15,824 - INFO - 127.0.0.1 - - [05/Feb/2025 05:22:15] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 05:22:15,960 - INFO - 127.0.0.1 - - [05/Feb/2025 05:22:15] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 05:22:15,984 - INFO - 127.0.0.1 - - [05/Feb/2025 05:22:15] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 05:22:19,685 - INFO - Received request for current user information
+2025-02-05 05:22:19,685 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 05:22:19,686 - INFO - 127.0.0.1 - - [05/Feb/2025 05:22:19] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 05:22:19,834 - INFO - 127.0.0.1 - - [05/Feb/2025 05:22:19] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 05:22:19,937 - INFO - 127.0.0.1 - - [05/Feb/2025 05:22:19] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 05:22:29,312 - INFO - Received request for current user information
+2025-02-05 05:22:29,312 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 05:22:29,312 - INFO - 127.0.0.1 - - [05/Feb/2025 05:22:29] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 05:22:29,512 - INFO - 127.0.0.1 - - [05/Feb/2025 05:22:29] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 05:22:29,644 - INFO - 127.0.0.1 - - [05/Feb/2025 05:22:29] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 05:22:33,758 - INFO - Received request for current user information
+2025-02-05 05:22:33,758 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 05:22:33,759 - INFO - 127.0.0.1 - - [05/Feb/2025 05:22:33] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 05:22:33,913 - INFO - 127.0.0.1 - - [05/Feb/2025 05:22:33] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 05:22:33,984 - INFO - 127.0.0.1 - - [05/Feb/2025 05:22:33] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 05:22:42,845 - INFO - Received request for current user information
+2025-02-05 05:22:42,845 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 05:22:42,846 - INFO - 127.0.0.1 - - [05/Feb/2025 05:22:42] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 05:22:43,071 - INFO - 127.0.0.1 - - [05/Feb/2025 05:22:43] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 05:22:43,159 - INFO - 127.0.0.1 - - [05/Feb/2025 05:22:43] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 05:23:51,014 - INFO - Received request for current user information
+2025-02-05 05:23:51,015 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 05:23:51,015 - INFO - 127.0.0.1 - - [05/Feb/2025 05:23:51] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 05:23:51,160 - INFO - 127.0.0.1 - - [05/Feb/2025 05:23:51] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 05:23:51,186 - INFO - 127.0.0.1 - - [05/Feb/2025 05:23:51] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 05:23:55,337 - INFO - Received logout request for user: thetoasthobo@gmail.com
+2025-02-05 05:23:55,338 - INFO - User logged out successfully: email: thetoasthobo@gmail.com
+2025-02-05 05:23:55,338 - INFO - Logout response: 200
+2025-02-05 05:23:55,339 - INFO - 127.0.0.1 - - [05/Feb/2025 05:23:55] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-05 07:47:56,383 - INFO - 127.0.0.1 - - [05/Feb/2025 07:47:56] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-05 07:47:56,388 - INFO - Received login request for email: thetoasthobo@gmail.com from IP: 127.0.0.1
+2025-02-05 07:47:56,472 - INFO - User logged in successfully: email: thetoasthobo@gmail.com, IP: 127.0.0.1
+2025-02-05 07:47:56,474 - INFO - Login successful for email: thetoasthobo@gmail.com
+2025-02-05 07:47:56,474 - INFO - 127.0.0.1 - - [05/Feb/2025 07:47:56] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-05 07:47:56,522 - INFO - Received request for current user information
+2025-02-05 07:47:56,523 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 07:47:56,524 - INFO - 127.0.0.1 - - [05/Feb/2025 07:47:56] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 07:47:56,525 - INFO - 127.0.0.1 - - [05/Feb/2025 07:47:56] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 07:48:11,067 - INFO - Received request for current user information
+2025-02-05 07:48:11,068 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 07:48:11,068 - INFO - 127.0.0.1 - - [05/Feb/2025 07:48:11] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 07:48:11,721 - INFO - Received request for current user information
+2025-02-05 07:48:11,721 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 07:48:11,722 - INFO - 127.0.0.1 - - [05/Feb/2025 07:48:11] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 07:48:11,745 - INFO - 127.0.0.1 - - [05/Feb/2025 07:48:11] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 08:44:06,981 - INFO - Received request for current user information
+2025-02-05 08:44:06,983 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 08:44:06,983 - INFO - 127.0.0.1 - - [05/Feb/2025 08:44:06] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 08:44:07,063 - INFO - Received request for current user information
+2025-02-05 08:44:07,064 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 08:44:07,064 - INFO - 127.0.0.1 - - [05/Feb/2025 08:44:07] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 08:44:07,077 - INFO - 127.0.0.1 - - [05/Feb/2025 08:44:07] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 08:45:03,557 - INFO - Received request for current user information
+2025-02-05 08:45:03,558 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 08:45:03,559 - INFO - 127.0.0.1 - - [05/Feb/2025 08:45:03] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 08:45:03,862 - INFO - Received request for current user information
+2025-02-05 08:45:03,862 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 08:45:03,867 - INFO - 127.0.0.1 - - [05/Feb/2025 08:45:03] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 08:45:03,868 - INFO - 127.0.0.1 - - [05/Feb/2025 08:45:03] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 08:45:29,190 - INFO - Received request for current user information
+2025-02-05 08:45:29,190 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 08:45:29,191 - INFO - 127.0.0.1 - - [05/Feb/2025 08:45:29] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 08:45:29,356 - INFO - Received request for current user information
+2025-02-05 08:45:29,360 - INFO - 127.0.0.1 - - [05/Feb/2025 08:45:29] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 08:45:29,361 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 08:45:29,363 - INFO - 127.0.0.1 - - [05/Feb/2025 08:45:29] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 08:45:38,360 - INFO - Received request for current user information
+2025-02-05 08:45:38,360 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 08:45:38,360 - INFO - 127.0.0.1 - - [05/Feb/2025 08:45:38] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 08:45:38,478 - INFO - Received request for current user information
+2025-02-05 08:45:38,478 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 08:45:38,479 - INFO - 127.0.0.1 - - [05/Feb/2025 08:45:38] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 08:45:38,487 - INFO - 127.0.0.1 - - [05/Feb/2025 08:45:38] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 08:45:59,637 - INFO - 127.0.0.1 - - [05/Feb/2025 08:45:59] "GET /api/towns/4e9135c8-5307-41f8-b052-db1ddd46bd2b/ HTTP/1.1" 200 -
+2025-02-05 08:45:59,773 - INFO - 127.0.0.1 - - [05/Feb/2025 08:45:59] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 08:45:59,799 - INFO - 127.0.0.1 - - [05/Feb/2025 08:45:59] "GET /api/heroes/4e9135c8-5307-41f8-b052-db1ddd46bd2b/ HTTP/1.1" 200 -
+2025-02-05 08:46:01,055 - INFO - Received request for current user information
+2025-02-05 08:46:01,056 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 08:46:01,056 - INFO - 127.0.0.1 - - [05/Feb/2025 08:46:01] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 08:46:01,061 - INFO - 127.0.0.1 - - [05/Feb/2025 08:46:01] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 08:46:02,323 - INFO - 127.0.0.1 - - [05/Feb/2025 08:46:02] "GET /api/towns/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 08:46:02,370 - INFO - 127.0.0.1 - - [05/Feb/2025 08:46:02] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 08:46:02,392 - INFO - 127.0.0.1 - - [05/Feb/2025 08:46:02] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 08:46:03,832 - INFO - Received request for current user information
+2025-02-05 08:46:03,833 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 08:46:03,833 - INFO - 127.0.0.1 - - [05/Feb/2025 08:46:03] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 08:46:03,834 - INFO - 127.0.0.1 - - [05/Feb/2025 08:46:03] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 08:46:27,928 - INFO - Received request for current user information
+2025-02-05 08:46:27,928 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 08:46:27,929 - INFO - 127.0.0.1 - - [05/Feb/2025 08:46:27] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 08:46:28,046 - INFO - Received request for current user information
+2025-02-05 08:46:28,046 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 08:46:28,047 - INFO - 127.0.0.1 - - [05/Feb/2025 08:46:28] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 08:46:28,093 - INFO - Received request for current user information
+2025-02-05 08:46:28,094 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 08:46:28,095 - INFO - 127.0.0.1 - - [05/Feb/2025 08:46:28] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 08:46:28,098 - INFO - 127.0.0.1 - - [05/Feb/2025 08:46:28] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 08:46:31,119 - INFO - 127.0.0.1 - - [05/Feb/2025 08:46:31] "GET /api/towns/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 08:46:31,239 - INFO - 127.0.0.1 - - [05/Feb/2025 08:46:31] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 08:46:31,261 - INFO - 127.0.0.1 - - [05/Feb/2025 08:46:31] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 08:46:33,233 - INFO - Received request for current user information
+2025-02-05 08:46:33,233 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 08:46:33,234 - INFO - 127.0.0.1 - - [05/Feb/2025 08:46:33] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 08:46:33,239 - INFO - 127.0.0.1 - - [05/Feb/2025 08:46:33] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 08:51:08,478 - INFO - Received request for current user information
+2025-02-05 08:51:08,478 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 08:51:08,479 - INFO - 127.0.0.1 - - [05/Feb/2025 08:51:08] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 08:51:08,516 - INFO - Received request for current user information
+2025-02-05 08:51:08,516 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 08:51:08,517 - INFO - 127.0.0.1 - - [05/Feb/2025 08:51:08] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 08:51:08,522 - INFO - 127.0.0.1 - - [05/Feb/2025 08:51:08] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 08:53:26,954 - INFO - Received request for current user information
+2025-02-05 08:53:26,955 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 08:53:26,956 - INFO - 127.0.0.1 - - [05/Feb/2025 08:53:26] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 08:53:26,999 - INFO - Received request for current user information
+2025-02-05 08:53:27,000 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 08:53:27,001 - INFO - 127.0.0.1 - - [05/Feb/2025 08:53:27] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 08:53:27,008 - INFO - 127.0.0.1 - - [05/Feb/2025 08:53:27] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 08:54:02,132 - INFO - Received request for current user information
+2025-02-05 08:54:02,133 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 08:54:02,133 - INFO - 127.0.0.1 - - [05/Feb/2025 08:54:02] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 08:54:02,179 - INFO - Received request for current user information
+2025-02-05 08:54:02,179 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 08:54:02,180 - INFO - 127.0.0.1 - - [05/Feb/2025 08:54:02] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 08:54:02,187 - INFO - 127.0.0.1 - - [05/Feb/2025 08:54:02] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 08:54:40,331 - INFO - Received request for current user information
+2025-02-05 08:54:40,331 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 08:54:40,333 - INFO - 127.0.0.1 - - [05/Feb/2025 08:54:40] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 08:54:40,385 - INFO - Received request for current user information
+2025-02-05 08:54:40,386 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 08:54:40,387 - INFO - 127.0.0.1 - - [05/Feb/2025 08:54:40] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 08:54:40,392 - INFO - 127.0.0.1 - - [05/Feb/2025 08:54:40] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:00:39,604 - INFO - Received request for current user information
+2025-02-05 09:00:39,605 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:00:39,605 - INFO - 127.0.0.1 - - [05/Feb/2025 09:00:39] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:00:39,649 - INFO - Received request for current user information
+2025-02-05 09:00:39,650 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:00:39,651 - INFO - 127.0.0.1 - - [05/Feb/2025 09:00:39] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:00:39,652 - INFO - 127.0.0.1 - - [05/Feb/2025 09:00:39] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:04:35,296 - INFO - Received request for current user information
+2025-02-05 09:04:35,296 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:04:35,297 - INFO - 127.0.0.1 - - [05/Feb/2025 09:04:35] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:04:35,338 - INFO - Received request for current user information
+2025-02-05 09:04:35,339 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:04:35,340 - INFO - 127.0.0.1 - - [05/Feb/2025 09:04:35] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:04:35,342 - INFO - 127.0.0.1 - - [05/Feb/2025 09:04:35] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:04:56,324 - INFO - 127.0.0.1 - - [05/Feb/2025 09:04:56] "GET /api/towns/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 09:04:58,487 - INFO - 127.0.0.1 - - [05/Feb/2025 09:04:58] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:04:58,501 - INFO - 127.0.0.1 - - [05/Feb/2025 09:04:58] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 09:05:01,416 - INFO - Received request for current user information
+2025-02-05 09:05:01,416 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:05:01,417 - INFO - 127.0.0.1 - - [05/Feb/2025 09:05:01] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:05:01,421 - INFO - 127.0.0.1 - - [05/Feb/2025 09:05:01] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:05:40,867 - INFO - Received request for current user information
+2025-02-05 09:05:40,867 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:05:40,868 - INFO - 127.0.0.1 - - [05/Feb/2025 09:05:40] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:05:40,916 - INFO - Received request for current user information
+2025-02-05 09:05:40,918 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:05:40,918 - INFO - 127.0.0.1 - - [05/Feb/2025 09:05:40] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:05:40,923 - INFO - 127.0.0.1 - - [05/Feb/2025 09:05:40] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:10:25,640 - INFO - Received request for current user information
+2025-02-05 09:10:25,640 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:10:25,641 - INFO - 127.0.0.1 - - [05/Feb/2025 09:10:25] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:10:25,801 - INFO - Received request for current user information
+2025-02-05 09:10:25,802 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:10:25,803 - INFO - 127.0.0.1 - - [05/Feb/2025 09:10:25] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:10:25,811 - INFO - 127.0.0.1 - - [05/Feb/2025 09:10:25] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:10:56,145 - INFO - Received request for current user information
+2025-02-05 09:10:56,145 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:10:56,146 - INFO - 127.0.0.1 - - [05/Feb/2025 09:10:56] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:10:56,188 - INFO - Received request for current user information
+2025-02-05 09:10:56,188 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:10:56,190 - INFO - 127.0.0.1 - - [05/Feb/2025 09:10:56] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:10:56,193 - INFO - 127.0.0.1 - - [05/Feb/2025 09:10:56] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:11:26,692 - INFO - Received request for current user information
+2025-02-05 09:11:26,692 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:11:26,693 - INFO - 127.0.0.1 - - [05/Feb/2025 09:11:26] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:11:26,732 - INFO - Received request for current user information
+2025-02-05 09:11:26,734 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:11:26,735 - INFO - 127.0.0.1 - - [05/Feb/2025 09:11:26] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:11:26,739 - INFO - 127.0.0.1 - - [05/Feb/2025 09:11:26] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:11:40,399 - INFO - Received request for current user information
+2025-02-05 09:11:40,399 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:11:40,399 - INFO - 127.0.0.1 - - [05/Feb/2025 09:11:40] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:11:40,447 - INFO - Received request for current user information
+2025-02-05 09:11:40,447 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:11:40,448 - INFO - 127.0.0.1 - - [05/Feb/2025 09:11:40] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:11:40,452 - INFO - 127.0.0.1 - - [05/Feb/2025 09:11:40] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:12:51,318 - INFO - Received request for current user information
+2025-02-05 09:12:51,318 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:12:51,319 - INFO - 127.0.0.1 - - [05/Feb/2025 09:12:51] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:12:51,360 - INFO - Received request for current user information
+2025-02-05 09:12:51,361 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:12:51,361 - INFO - 127.0.0.1 - - [05/Feb/2025 09:12:51] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:12:51,367 - INFO - 127.0.0.1 - - [05/Feb/2025 09:12:51] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:14:21,437 - INFO - Received request for current user information
+2025-02-05 09:14:21,438 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:14:21,439 - INFO - 127.0.0.1 - - [05/Feb/2025 09:14:21] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:14:21,521 - INFO - Received request for current user information
+2025-02-05 09:14:21,522 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:14:21,523 - INFO - 127.0.0.1 - - [05/Feb/2025 09:14:21] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:14:21,526 - INFO - 127.0.0.1 - - [05/Feb/2025 09:14:21] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:15:10,248 - INFO - Received request for current user information
+2025-02-05 09:15:10,248 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:15:10,249 - INFO - 127.0.0.1 - - [05/Feb/2025 09:15:10] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:15:10,290 - INFO - Received request for current user information
+2025-02-05 09:15:10,290 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:15:10,291 - INFO - 127.0.0.1 - - [05/Feb/2025 09:15:10] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:15:10,297 - INFO - 127.0.0.1 - - [05/Feb/2025 09:15:10] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:15:26,234 - INFO - Received request for current user information
+2025-02-05 09:15:26,234 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:15:26,234 - INFO - 127.0.0.1 - - [05/Feb/2025 09:15:26] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:15:26,297 - INFO - Received request for current user information
+2025-02-05 09:15:26,298 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:15:26,300 - INFO - 127.0.0.1 - - [05/Feb/2025 09:15:26] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:15:26,305 - INFO - 127.0.0.1 - - [05/Feb/2025 09:15:26] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:16:04,634 - INFO - Received request for current user information
+2025-02-05 09:16:04,634 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:16:04,635 - INFO - 127.0.0.1 - - [05/Feb/2025 09:16:04] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:16:04,712 - INFO - Received request for current user information
+2025-02-05 09:16:04,713 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:16:04,714 - INFO - 127.0.0.1 - - [05/Feb/2025 09:16:04] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:16:04,722 - INFO - 127.0.0.1 - - [05/Feb/2025 09:16:04] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:17:36,491 - INFO - 127.0.0.1 - - [05/Feb/2025 09:17:36] "GET /api/towns/a24f870a-bd06-4f2f-b329-13a810e5ab80/ HTTP/1.1" 200 -
+2025-02-05 09:17:38,665 - INFO - 127.0.0.1 - - [05/Feb/2025 09:17:38] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:17:38,700 - INFO - 127.0.0.1 - - [05/Feb/2025 09:17:38] "GET /api/heroes/a24f870a-bd06-4f2f-b329-13a810e5ab80/ HTTP/1.1" 200 -
+2025-02-05 09:17:57,135 - INFO - 127.0.0.1 - - [05/Feb/2025 09:17:57] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-05 09:18:01,269 - INFO - 127.0.0.1 - - [05/Feb/2025 09:18:01] "OPTIONS /api/heroes/a24f870a-bd06-4f2f-b329-13a810e5ab80/ HTTP/1.1" 200 -
+2025-02-05 09:18:01,285 - INFO - 127.0.0.1 - - [05/Feb/2025 09:18:01] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:18:01,321 - INFO - 127.0.0.1 - - [05/Feb/2025 09:18:01] "[35m[1mPOST /api/heroes/a24f870a-bd06-4f2f-b329-13a810e5ab80/ HTTP/1.1[0m" 201 -
+2025-02-05 09:18:01,333 - INFO - 127.0.0.1 - - [05/Feb/2025 09:18:01] "GET /api/heroes/a24f870a-bd06-4f2f-b329-13a810e5ab80/ HTTP/1.1" 200 -
+2025-02-05 09:18:13,981 - INFO - Received logout request for user: thetoasthobo@gmail.com
+2025-02-05 09:18:13,983 - INFO - User logged out successfully: email: thetoasthobo@gmail.com
+2025-02-05 09:18:13,983 - INFO - Logout response: 200
+2025-02-05 09:18:13,984 - INFO - 127.0.0.1 - - [05/Feb/2025 09:18:13] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-05 09:20:44,751 - INFO - 127.0.0.1 - - [05/Feb/2025 09:20:44] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-05 09:20:44,760 - INFO - Received login request for email: thetoasthobo@gmail.com from IP: 127.0.0.1
+2025-02-05 09:20:44,842 - INFO - User logged in successfully: email: thetoasthobo@gmail.com, IP: 127.0.0.1
+2025-02-05 09:20:44,843 - INFO - Login successful for email: thetoasthobo@gmail.com
+2025-02-05 09:20:44,844 - INFO - 127.0.0.1 - - [05/Feb/2025 09:20:44] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-05 09:20:46,935 - INFO - Received request for current user information
+2025-02-05 09:20:46,936 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:20:46,938 - INFO - 127.0.0.1 - - [05/Feb/2025 09:20:46] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:20:46,940 - INFO - 127.0.0.1 - - [05/Feb/2025 09:20:46] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:23:50,240 - INFO - 127.0.0.1 - - [05/Feb/2025 09:23:50] "GET /api/towns/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 09:23:52,395 - INFO - 127.0.0.1 - - [05/Feb/2025 09:23:52] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:23:52,424 - INFO - 127.0.0.1 - - [05/Feb/2025 09:23:52] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 09:23:53,410 - INFO - 127.0.0.1 - - [05/Feb/2025 09:23:53] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-05 09:23:55,426 - INFO - 127.0.0.1 - - [05/Feb/2025 09:23:55] "OPTIONS /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 09:23:55,443 - INFO - 127.0.0.1 - - [05/Feb/2025 09:23:55] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:23:55,462 - INFO - 127.0.0.1 - - [05/Feb/2025 09:23:55] "[35m[1mPOST /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1[0m" 201 -
+2025-02-05 09:23:55,477 - INFO - 127.0.0.1 - - [05/Feb/2025 09:23:55] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 09:23:56,307 - INFO - 127.0.0.1 - - [05/Feb/2025 09:23:56] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-05 09:23:59,533 - INFO - 127.0.0.1 - - [05/Feb/2025 09:23:59] "[35m[1mPOST /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1[0m" 201 -
+2025-02-05 09:23:59,544 - INFO - 127.0.0.1 - - [05/Feb/2025 09:23:59] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:23:59,560 - INFO - 127.0.0.1 - - [05/Feb/2025 09:23:59] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 09:24:00,277 - INFO - 127.0.0.1 - - [05/Feb/2025 09:24:00] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-05 09:24:02,784 - INFO - 127.0.0.1 - - [05/Feb/2025 09:24:02] "OPTIONS /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 09:24:02,793 - INFO - 127.0.0.1 - - [05/Feb/2025 09:24:02] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:24:02,827 - INFO - 127.0.0.1 - - [05/Feb/2025 09:24:02] "[35m[1mPOST /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1[0m" 201 -
+2025-02-05 09:24:02,838 - INFO - 127.0.0.1 - - [05/Feb/2025 09:24:02] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 09:24:03,622 - INFO - 127.0.0.1 - - [05/Feb/2025 09:24:03] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-05 09:24:05,741 - INFO - 127.0.0.1 - - [05/Feb/2025 09:24:05] "[35m[1mPOST /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1[0m" 201 -
+2025-02-05 09:24:05,758 - INFO - 127.0.0.1 - - [05/Feb/2025 09:24:05] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:24:05,776 - INFO - 127.0.0.1 - - [05/Feb/2025 09:24:05] "GET /api/heroes/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 09:24:08,040 - INFO - Received logout request for user: thetoasthobo@gmail.com
+2025-02-05 09:24:08,042 - INFO - User logged out successfully: email: thetoasthobo@gmail.com
+2025-02-05 09:24:08,042 - INFO - Logout response: 200
+2025-02-05 09:24:08,043 - INFO - 127.0.0.1 - - [05/Feb/2025 09:24:08] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-05 09:24:20,547 - INFO - 127.0.0.1 - - [05/Feb/2025 09:24:20] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-05 09:24:20,550 - INFO - Received login request for email: thetoasthobo@gmail.com from IP: 127.0.0.1
+2025-02-05 09:24:20,635 - INFO - User logged in successfully: email: thetoasthobo@gmail.com, IP: 127.0.0.1
+2025-02-05 09:24:20,636 - INFO - Login successful for email: thetoasthobo@gmail.com
+2025-02-05 09:24:20,637 - INFO - 127.0.0.1 - - [05/Feb/2025 09:24:20] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-05 09:24:20,676 - INFO - Received request for current user information
+2025-02-05 09:24:20,677 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:24:20,678 - INFO - 127.0.0.1 - - [05/Feb/2025 09:24:20] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:24:20,683 - INFO - 127.0.0.1 - - [05/Feb/2025 09:24:20] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:24:46,294 - INFO - Received request for current user information
+2025-02-05 09:24:46,294 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:24:46,295 - INFO - 127.0.0.1 - - [05/Feb/2025 09:24:46] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:24:46,347 - INFO - Received request for current user information
+2025-02-05 09:24:46,348 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:24:46,349 - INFO - 127.0.0.1 - - [05/Feb/2025 09:24:46] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:24:46,352 - INFO - 127.0.0.1 - - [05/Feb/2025 09:24:46] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:24:54,110 - INFO - Received request for current user information
+2025-02-05 09:24:54,110 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:24:54,112 - INFO - 127.0.0.1 - - [05/Feb/2025 09:24:54] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:24:54,152 - INFO - Received request for current user information
+2025-02-05 09:24:54,153 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:24:54,155 - INFO - 127.0.0.1 - - [05/Feb/2025 09:24:54] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:24:54,157 - INFO - 127.0.0.1 - - [05/Feb/2025 09:24:54] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:25:11,960 - INFO - 127.0.0.1 - - [05/Feb/2025 09:25:11] "OPTIONS /api/towns/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 09:25:11,978 - INFO - 127.0.0.1 - - [05/Feb/2025 09:25:11] "DELETE /api/towns/74d9707c-738f-449d-96ee-9d023899e2b1/ HTTP/1.1" 200 -
+2025-02-05 09:25:13,766 - INFO - 127.0.0.1 - - [05/Feb/2025 09:25:13] "GET /api/towns/4e9135c8-5307-41f8-b052-db1ddd46bd2b/ HTTP/1.1" 200 -
+2025-02-05 09:25:15,946 - INFO - 127.0.0.1 - - [05/Feb/2025 09:25:15] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:25:15,981 - INFO - 127.0.0.1 - - [05/Feb/2025 09:25:15] "GET /api/heroes/4e9135c8-5307-41f8-b052-db1ddd46bd2b/ HTTP/1.1" 200 -
+2025-02-05 09:25:17,479 - INFO - Received request for current user information
+2025-02-05 09:25:17,479 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 09:25:17,479 - INFO - 127.0.0.1 - - [05/Feb/2025 09:25:17] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 09:25:17,604 - INFO - 127.0.0.1 - - [05/Feb/2025 09:25:17] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 09:25:17,639 - INFO - 127.0.0.1 - - [05/Feb/2025 09:25:17] "GET /api/heroes/4e9135c8-5307-41f8-b052-db1ddd46bd2b/ HTTP/1.1" 200 -
+2025-02-05 09:25:19,688 - INFO - Received logout request for user: thetoasthobo@gmail.com
+2025-02-05 09:25:19,689 - INFO - User logged out successfully: email: thetoasthobo@gmail.com
+2025-02-05 09:25:19,689 - INFO - Logout response: 200
+2025-02-05 09:25:19,690 - INFO - 127.0.0.1 - - [05/Feb/2025 09:25:19] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-05 10:15:06,649 - INFO - 127.0.0.1 - - [05/Feb/2025 10:15:06] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-05 10:15:06,658 - INFO - Received login request for email: thetoasthobo@gmail.com from IP: 127.0.0.1
+2025-02-05 10:15:06,742 - INFO - User logged in successfully: email: thetoasthobo@gmail.com, IP: 127.0.0.1
+2025-02-05 10:15:06,743 - INFO - Login successful for email: thetoasthobo@gmail.com
+2025-02-05 10:15:06,744 - INFO - 127.0.0.1 - - [05/Feb/2025 10:15:06] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-05 10:15:08,826 - INFO - Received request for current user information
+2025-02-05 10:15:08,826 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 10:15:08,827 - INFO - 127.0.0.1 - - [05/Feb/2025 10:15:08] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 10:15:08,830 - INFO - 127.0.0.1 - - [05/Feb/2025 10:15:08] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 10:15:46,131 - INFO - 127.0.0.1 - - [05/Feb/2025 10:15:46] "OPTIONS /api/towns/ HTTP/1.1" 200 -
+2025-02-05 10:15:46,155 - INFO - 127.0.0.1 - - [05/Feb/2025 10:15:46] "[35m[1mPOST /api/towns/ HTTP/1.1[0m" 201 -
+2025-02-05 10:15:48,243 - INFO - 127.0.0.1 - - [05/Feb/2025 10:15:48] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-05 10:15:54,371 - INFO - 127.0.0.1 - - [05/Feb/2025 10:15:54] "OPTIONS /api/heroes/46b8972f-73e3-441f-9661-6f7227e9ab41/ HTTP/1.1" 200 -
+2025-02-05 10:15:54,394 - INFO - 127.0.0.1 - - [05/Feb/2025 10:15:54] "[35m[1mPOST /api/heroes/46b8972f-73e3-441f-9661-6f7227e9ab41/ HTTP/1.1[0m" 201 -
+2025-02-05 10:15:54,477 - INFO - 127.0.0.1 - - [05/Feb/2025 10:15:54] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 10:15:54,509 - INFO - 127.0.0.1 - - [05/Feb/2025 10:15:54] "GET /api/heroes/46b8972f-73e3-441f-9661-6f7227e9ab41/ HTTP/1.1" 200 -
+2025-02-05 10:16:10,176 - INFO - 127.0.0.1 - - [05/Feb/2025 10:16:10] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-05 10:16:15,275 - INFO - 127.0.0.1 - - [05/Feb/2025 10:16:15] "OPTIONS /api/heroes/46b8972f-73e3-441f-9661-6f7227e9ab41/ HTTP/1.1" 200 -
+2025-02-05 10:16:15,295 - INFO - 127.0.0.1 - - [05/Feb/2025 10:16:15] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 10:16:15,318 - INFO - 127.0.0.1 - - [05/Feb/2025 10:16:15] "[35m[1mPOST /api/heroes/46b8972f-73e3-441f-9661-6f7227e9ab41/ HTTP/1.1[0m" 201 -
+2025-02-05 10:16:15,330 - INFO - 127.0.0.1 - - [05/Feb/2025 10:16:15] "GET /api/heroes/46b8972f-73e3-441f-9661-6f7227e9ab41/ HTTP/1.1" 200 -
+2025-02-05 10:18:16,180 - INFO - 127.0.0.1 - - [05/Feb/2025 10:18:16] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-05 10:18:24,943 - INFO - 127.0.0.1 - - [05/Feb/2025 10:18:24] "OPTIONS /api/heroes/46b8972f-73e3-441f-9661-6f7227e9ab41/ HTTP/1.1" 200 -
+2025-02-05 10:18:24,967 - INFO - 127.0.0.1 - - [05/Feb/2025 10:18:24] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 10:18:24,984 - INFO - 127.0.0.1 - - [05/Feb/2025 10:18:24] "[35m[1mPOST /api/heroes/46b8972f-73e3-441f-9661-6f7227e9ab41/ HTTP/1.1[0m" 201 -
+2025-02-05 10:18:24,991 - INFO - 127.0.0.1 - - [05/Feb/2025 10:18:24] "GET /api/heroes/46b8972f-73e3-441f-9661-6f7227e9ab41/ HTTP/1.1" 200 -
+2025-02-05 10:36:01,319 - INFO - Received logout request for user: thetoasthobo@gmail.com
+2025-02-05 10:36:01,320 - INFO - User logged out successfully: email: thetoasthobo@gmail.com
+2025-02-05 10:36:01,320 - INFO - Logout response: 200
+2025-02-05 10:36:01,321 - INFO - 127.0.0.1 - - [05/Feb/2025 10:36:01] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-05 17:21:52,540 - INFO - 127.0.0.1 - - [05/Feb/2025 17:21:52] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-05 17:21:52,552 - INFO - Received login request for email: thetoasthobo@gmail.com from IP: 127.0.0.1
+2025-02-05 17:21:52,639 - INFO - User logged in successfully: email: thetoasthobo@gmail.com, IP: 127.0.0.1
+2025-02-05 17:21:52,641 - INFO - Login successful for email: thetoasthobo@gmail.com
+2025-02-05 17:21:52,643 - INFO - 127.0.0.1 - - [05/Feb/2025 17:21:52] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-05 17:21:54,735 - INFO - Received request for current user information
+2025-02-05 17:21:54,736 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 17:21:54,737 - INFO - 127.0.0.1 - - [05/Feb/2025 17:21:54] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 17:21:54,741 - INFO - 127.0.0.1 - - [05/Feb/2025 17:21:54] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 17:22:05,406 - INFO - 127.0.0.1 - - [05/Feb/2025 17:22:05] "OPTIONS /api/towns/46b8972f-73e3-441f-9661-6f7227e9ab41/ HTTP/1.1" 200 -
+2025-02-05 17:22:05,422 - INFO - 127.0.0.1 - - [05/Feb/2025 17:22:05] "DELETE /api/towns/46b8972f-73e3-441f-9661-6f7227e9ab41/ HTTP/1.1" 200 -
+2025-02-05 17:23:01,709 - INFO - 127.0.0.1 - - [05/Feb/2025 17:23:01] "GET /api/towns/a24f870a-bd06-4f2f-b329-13a810e5ab80/ HTTP/1.1" 200 -
+2025-02-05 17:23:03,877 - INFO - 127.0.0.1 - - [05/Feb/2025 17:23:03] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 17:23:03,904 - INFO - 127.0.0.1 - - [05/Feb/2025 17:23:03] "GET /api/heroes/a24f870a-bd06-4f2f-b329-13a810e5ab80/ HTTP/1.1" 200 -
+2025-02-05 17:25:46,138 - INFO - Received logout request for user: thetoasthobo@gmail.com
+2025-02-05 17:25:46,140 - INFO - User logged out successfully: email: thetoasthobo@gmail.com
+2025-02-05 17:25:46,140 - INFO - Logout response: 200
+2025-02-05 17:25:46,141 - INFO - 127.0.0.1 - - [05/Feb/2025 17:25:46] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-05 17:45:21,340 - INFO - 127.0.0.1 - - [05/Feb/2025 17:45:21] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-02-05 17:45:21,343 - INFO - Received login request for email: thetoasthobo@gmail.com from IP: 127.0.0.1
+2025-02-05 17:45:21,432 - INFO - User logged in successfully: email: thetoasthobo@gmail.com, IP: 127.0.0.1
+2025-02-05 17:45:21,433 - INFO - Login successful for email: thetoasthobo@gmail.com
+2025-02-05 17:45:21,434 - INFO - 127.0.0.1 - - [05/Feb/2025 17:45:21] "POST /api/auth/login HTTP/1.1" 200 -
+2025-02-05 17:45:21,466 - INFO - Received request for current user information
+2025-02-05 17:45:21,467 - INFO - Retrieved current user information for user: thetoasthobo@gmail.com
+2025-02-05 17:45:21,468 - INFO - 127.0.0.1 - - [05/Feb/2025 17:45:21] "GET /api/auth/current_user HTTP/1.1" 200 -
+2025-02-05 17:45:21,470 - INFO - 127.0.0.1 - - [05/Feb/2025 17:45:21] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 17:45:50,186 - INFO - 127.0.0.1 - - [05/Feb/2025 17:45:50] "GET /api/towns/a24f870a-bd06-4f2f-b329-13a810e5ab80/ HTTP/1.1" 200 -
+2025-02-05 17:45:50,243 - INFO - 127.0.0.1 - - [05/Feb/2025 17:45:50] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 17:45:50,255 - INFO - 127.0.0.1 - - [05/Feb/2025 17:45:50] "GET /api/heroes/a24f870a-bd06-4f2f-b329-13a810e5ab80/ HTTP/1.1" 200 -
+2025-02-05 17:46:04,053 - INFO - 127.0.0.1 - - [05/Feb/2025 17:46:04] "GET /api/initial_hero/hero_stats HTTP/1.1" 200 -
+2025-02-05 17:46:29,591 - INFO - 127.0.0.1 - - [05/Feb/2025 17:46:29] "OPTIONS /api/heroes/a24f870a-bd06-4f2f-b329-13a810e5ab80/ HTTP/1.1" 200 -
+2025-02-05 17:46:29,599 - INFO - 127.0.0.1 - - [05/Feb/2025 17:46:29] "GET /api/towns/ HTTP/1.1" 200 -
+2025-02-05 17:46:29,635 - INFO - 127.0.0.1 - - [05/Feb/2025 17:46:29] "[35m[1mPOST /api/heroes/a24f870a-bd06-4f2f-b329-13a810e5ab80/ HTTP/1.1[0m" 201 -
+2025-02-05 17:46:29,648 - INFO - 127.0.0.1 - - [05/Feb/2025 17:46:29] "GET /api/heroes/a24f870a-bd06-4f2f-b329-13a810e5ab80/ HTTP/1.1" 200 -
+2025-02-05 17:46:49,666 - INFO - Received logout request for user: thetoasthobo@gmail.com
+2025-02-05 17:46:49,667 - INFO - User logged out successfully: email: thetoasthobo@gmail.com
+2025-02-05 17:46:49,667 - INFO - Logout response: 200
+2025-02-05 17:46:49,667 - INFO - 127.0.0.1 - - [05/Feb/2025 17:46:49] "POST /api/auth/logout HTTP/1.1" 200 -
+2025-02-26 10:50:50,624 - ERROR - Error: Path doesn't exist: 'C:\\Users\\14434\\Desktop\\mayoRPG2\\backend\\migrations'.  Please use the 'init' command to create a new scripts folder.
+2025-02-26 10:51:33,778 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-26 10:51:33,779 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-26 10:51:36,822 - INFO - 127.0.0.1 - - [26/Feb/2025 10:51:36] "GET / HTTP/1.1" 200 -
+2025-02-26 10:51:36,974 - INFO - 127.0.0.1 - - [26/Feb/2025 10:51:36] "GET /swaggerui/droid-sans.css HTTP/1.1" 200 -
+2025-02-26 10:51:37,017 - INFO - 127.0.0.1 - - [26/Feb/2025 10:51:37] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 200 -
+2025-02-26 10:51:37,087 - INFO - 127.0.0.1 - - [26/Feb/2025 10:51:37] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2025-02-26 10:51:37,424 - INFO - 127.0.0.1 - - [26/Feb/2025 10:51:37] "GET /swaggerui/swagger-ui.css HTTP/1.1" 200 -
+2025-02-26 10:51:37,483 - INFO - 127.0.0.1 - - [26/Feb/2025 10:51:37] "GET /swaggerui/favicon-16x16.png HTTP/1.1" 200 -
+2025-02-26 10:51:37,523 - INFO - 127.0.0.1 - - [26/Feb/2025 10:51:37] "GET /api/swagger.json HTTP/1.1" 200 -
